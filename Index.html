@@ -278,8 +278,14 @@
     </footer>
 
     <script>
-        $("#menuOn, #menuOnHidden, #menuOff").click(function() {
-            $("#menu").slideToggle("");
+        $("#menuOnHidden").click(function() {
+            $("#menuOnHidden").toggle();
+            $("#menu").slideToggle("medium");
+        });
+        $("#menuOff").click(function() {
+            $("#menu").slideToggle("medium", function() {
+                $("#menuOnHidden").toggle();
+            });
         });
     </script>
 </body>

@@ -166,6 +166,12 @@ header .menu-cont{
     color: #2c3161;
 }
 
+@media screen and (max-width: 1300px) {
+    header .menu-cont{
+        transform: translateX(-69%);
+    }
+}
+
 header .menu-cont .menu-off{
     margin-top: 15px;
 }
