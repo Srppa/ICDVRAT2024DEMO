@@ -53,10 +53,12 @@ a:hover {
 .disabled{
     color: #555;
     cursor: not-allowed;
+    text-decoration: line-through !important;
 }
 
 .disabled-button{
     cursor: not-allowed;
+    text-decoration: line-through !important;
 }
 
 .not-yet{
@@ -94,14 +96,15 @@ header .logos-cont img{
 }
 
 header .menu-icon-cont{
-    width: 65px;
-    height: 65px;
+    width: 75px;
+    height: 75px;
 }
 
 header .menu-icon-cont img{
     object-fit: fill;
-    width: 100%;
-    height: 100%;
+    width: 75px;
+    height: 75px;
+    
 }
 
 
