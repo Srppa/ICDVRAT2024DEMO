@@ -134,6 +134,7 @@ header .logos-cont .logo-long{
 
     header .menu-cont{
         right: -281px;
+        transform: translateX(-73%) !important;
     }
 }
 
@@ -211,7 +212,7 @@ header .menu-cont{
 
 @media screen and (max-width: 1300px) {
     header .menu-cont{
-        transform: translateX(-73%);
+        transform: translateX(-69%);
     }
 }
 
