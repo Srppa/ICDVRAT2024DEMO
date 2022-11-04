@@ -26,13 +26,13 @@
                     <div id="menu" class="menu-cont">
                         <img id="menuOff" class="menu-off" src="images/menu-off.svg"/>
                         <nav>
-                            <li>About</li>
-                            <li>Important Dates</li>
-                            <li>Sponsors</li>
-                            <li>General Information</li>
-                            <li>Program</li>
-                            <li>Logistics</li>
-                            <li>Commitees</li>
+                            <li data-="#aboutLink">About</li>
+                            <li data-="#importantDatesLink">Important Dates</li>
+                            <li data-="#sponsorsLink">Sponsors</li>
+                            <li data-="#generalInformationLink">General Information</li>
+                            <li data-="#programLink">Program</li>
+                            <li data-="#logisticsLink">Logistics</li>
+                            <li data-="#commiteesLink">Commitees</li>
                         </nav>
                         <a class="buy-button disabled-button">Buy Ticket</a>
                         <div class="not-yet">
@@ -54,7 +54,7 @@
         
     </header>
     <main>
-        <section class="about-cont">
+        <section id="aboutLink" class="about-cont">
             <div class="sub-cont">
                 <h2>About</h2>
                 <div class="about-text">
@@ -69,7 +69,7 @@
                 
             </div>
         </section>
-        <section class="important-dates">
+        <section id="importantDatesLink" class="important-dates">
             <h2>Important Dates</h2>
             <div class="dates-cont">
                 <p><span class="date-bold">01/01/2024</span> – Call for ‘2 pages’ Abstracts opens.</p>
@@ -80,7 +80,7 @@
                 <p><span class="date-bold">01/07/2024</span> – 31/08/2024: Regular Registration – 450€, 430€ (ISVR member), 300€ (student), 250€ (ISVR member student).</p>
             </div>
         </section>
-        <section class="sponsors-cont">
+        <section id="sponsorsLink" class="sponsors-cont">
             <h2>Sponsors</h2>
             <div class="sponsors-grid">
                 <div class="sponsor-detail">
@@ -97,7 +97,7 @@
                 </div>
             </div>
         </section>
-        <section class="general-info">
+        <section id="generalInformationLink" class="general-info">
             <h2>General Information</h2>
             <div class="location-panel">
                 <h3>Location - Main Venue</h3>
@@ -161,7 +161,7 @@
                 </div>
             </div>
         </section>
-        <section class="logistics-cont">
+        <section id="logisticsLink" class="logistics-cont">
             <h2>Logistics</h2>
             <div class="travel-info">
                 <h3>Travel Info</h3>
@@ -172,11 +172,11 @@
                 <p>To be specified</p>
             </div>
         </section>
-        <section>
+        <section id="submisionsLink">
             <h2>Submisions</h2>
             <p>To be specified</p>
         </section>
-        <section class="committees-cont">
+        <section id="commiteesLink" class="committees-cont">
             <h2>Commitees</h2>
             <div class="sub-committee-cont">
                 <h3>General Conference Chairs</h3>
@@ -281,13 +281,19 @@
     <script>
         $("#menuOnHidden").click(function() {
             $("#menuOnHidden").toggle();
-            $("#menu").slideToggle("medium");
+            $("#menu").slideToggle(300);
         });
         $("#menuOff").click(function() {
-            $("#menu").slideToggle("medium", function() {
+            $("#menu").slideToggle(300, function() {
                 $("#menuOnHidden").toggle();
             });
         });
+        $("#menu li").click(function() {
+            $("#menu").toggle();
+            $("#menuOnHidden").toggle();
+            $("html, body").animate({ scrollTop: $("" + $(this).data()[""]).offset().top }, 300);
+        });
+        
     </script>
 </body>
 </html>
