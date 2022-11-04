@@ -211,7 +211,7 @@ header .menu-cont{
 
 @media screen and (max-width: 1300px) {
     header .menu-cont{
-        transform: translateX(-66%);
+        transform: translateX(-73%);
     }
 }
 
