@@ -328,6 +328,14 @@ header .menu-cont .buy-button{
     margin: 20px auto;
 }
 
+.general-info .location-panel .gmap_canvas{
+    max-width: 100%;
+}
+
+.general-info .location-panel .mapouter iframe{
+    max-width: 100%;
+}
+
 .program-cont .schedule-cont{
     margin-bottom: 45px;
 }
