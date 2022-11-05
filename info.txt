@@ -1,5 +1,0 @@
-color filter 
- - color_1: #095f46
- - color_2: #4d0007
- - opacity: 92%
- - přechod
