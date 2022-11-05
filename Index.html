@@ -47,7 +47,7 @@
                 <h1>15h International Conference on Disability, Virtual Reality & Associated Technologies</h1>
                 <p>September 3 to 6, 2024 - Prague, Czech Republic</p>
                 <div class="header-buttons-cont">
-                    <a href="#programLink">View Schedule ⬇</a>
+                    <a id="programButton">View Program ⬇</a>
                     <a class="disabled-button">Buy Ticket ➡</a>
                 </div>
             </div>
@@ -102,12 +102,12 @@
             <h2>General Information</h2>
             <div class="location-panel">
                 <h3>Location - Main Venue</h3>
-                <p>Czech Technical University in Prague</p>
                 <p>Czech Institute of Informatics, Robotics and Cybernetics</p>
+                <p>Czech Technical University in Prague</p>
                 <p>Jugoslávských partyzánů 1580/3</p>
                 <p>160 00 Prague 6, Dejvice</p>
                 <p>Czech Republic</p>
-                <div class="mapouter map-responsive"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Czech%20Institute%20of%20Informatics,%20Robotics%20and%20Cybernetics&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><a href="https://www.embedgooglemap.net">google maps iframe embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div></div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Czech%20Institute%20of%20Informatics,%20Robotics%20and%20Cybernetics,%20Jugosl%C3%A1vsk%C3%BDch%20partyz%C3%A1n%C5%AF%201580/3,%20160%2000%20Prague%206,%20Dejvice,%20Czech%20Republic%20&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><a href="https://www.embedgooglemap.net">custom google maps embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div></div>
             </div>
             <div class="location-panel">
                 <h3>Location - Clinical Workshop</h3>
@@ -115,7 +115,7 @@
                 <p>Topolová 748</p>
                 <p>250 67 Klecany</p>
                 <p>Czech Republic</p>
-                <div class="mapouter map-responsive"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=National%20Institute%20of%20Mental%20Health&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><a href="https://www.embedgooglemap.net">google maps iframe embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div></div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=National%20Institute%20of%20Mental%20Health,%20Topolov%C3%A1%20748,%20250%2067%20Klecany,%20%20Czech%20Republic&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><a href="https://www.embedgooglemap.net">custom google maps embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div></div>
             </div>
             <div class="date-panel">
                 <h3>Date</h3>
@@ -294,7 +294,9 @@
             $("#menuOnHidden").toggle();
             $("html, body").animate({ scrollTop: $("" + $(this).data()[""]).offset().top }, 300);
         });
-        
+        $("#programButton").click(function() {
+            $("html, body").animate({ scrollTop: $("#programLink").offset().top }, 300);
+        });
     </script>
 </body>
 </html>
