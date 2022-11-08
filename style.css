@@ -282,14 +282,31 @@ header .menu-cont .buy-button{
 }
 
 .sponsors-cont .sponsors-grid{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
 
-    width: 80%;
+    width: 600px;
+    max-width: 80%;
+
+    grid-template-columns: 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
 
     margin: auto;
 }
+
+@media screen and (max-width: 750px) {
+    .sponsors-cont .sponsors-grid{
+        display: flex;
+    
+        flex-direction: column;
+    
+        max-width: 80%;
+    
+        margin: auto;
+    }
+}
+
 
 .sponsors-cont .sponsor-detail{
     margin-bottom: 30px;
@@ -402,9 +419,14 @@ header .menu-cont .buy-button{
     border-radius: 10px;
 }
 
-.logistics-cont .travel-info{
+.logistics-cont > div{
     margin-bottom: 45px;
 }
+
+.logistics-cont > div:last-child{
+    margin-bottom: auto;
+}
+
 
 .committees-cont > h2{
     margin-bottom: 20px;
@@ -420,6 +442,27 @@ header .menu-cont .buy-button{
 
 .committees-cont .sub-committee-names-cont > p{
     margin-bottom: 10px;
+}
+
+.committees-cont .prize-cont h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.committees-cont .prize-cont a{
+    color: #2c3161;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.archives-cont p:last-child{
+    margin-top: 10px;
+}
+
+.archives-cont a{
+    color: #2c3161;
+    text-decoration: underline;
+    font-weight: 900;
 }
 
 footer{
