@@ -50,6 +50,10 @@ a:hover {
     text-decoration: none;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .sub-cont{
     max-width: 1200px;
     margin: auto;
@@ -206,7 +210,7 @@ header .menu-cont{
     width: 350px;
     height: 100%;
 
-    overflow-y: scroll;
+    overflow-y: auto;
 
     border: 10px solid #2c3161;
     border-top: none;
@@ -326,6 +330,14 @@ header .menu-cont .buy-button{
     object-fit: contain;
 }
 
+.sponsors-cont .discount a{
+    display: inline-block;
+    color: #2c3161;
+    text-decoration: underline;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
 .general-info .location-panel{
     margin-bottom: 30px;
 }
@@ -432,6 +444,22 @@ header .menu-cont .buy-button{
     margin-bottom: auto;
 }
 
+.registration-cont p{
+    margin-bottom: 10px;
+}
+
+.registration-cont .top-registry-text .date-bold{
+    font-weight: 900;
+}
+
+.registration-cont .registry-button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.registration-cont .bottom-registry-text p{
+    margin-bottom: 20px;
+}
 
 .committees-cont > h2{
     margin-bottom: 20px;
