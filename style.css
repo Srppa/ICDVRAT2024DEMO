@@ -386,12 +386,12 @@ header .menu-cont .buy-button{
 @media screen and (min-width: 500px){
     .slick-prev:before,
     .slick-next:before {
-        display: inline-block;
-        font-size: 40px;
+        display: inline-block !important;
+        font-size: 40px !important;
     }
 
     .slick-prev{
-        left: -50px;
+        left: -50px !important;
     }
 }
 
