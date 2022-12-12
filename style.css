@@ -369,10 +369,6 @@ header .menu-cont .buy-button{
     margin: auto;
 }
 
-.slick-prev:before,
-.slick-next:before {
-color: #2c3161 !important;
-}
 
 .general-info .date-panel{
     margin-bottom: 30px;
