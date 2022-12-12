@@ -346,6 +346,30 @@ header .menu-cont .buy-button{
     margin-bottom: 10px;
 }
 
+.general-info .carousel_cont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.general-info .carousel{
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+.general-info .carousel img{
+    max-width: 900px;
+    margin: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: #2c3161 !important;
+}
+
 .general-info .date-panel{
     margin-bottom: 30px;
 }
