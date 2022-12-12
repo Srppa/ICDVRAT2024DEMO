@@ -363,11 +363,28 @@ header .menu-cont .buy-button{
     max-width: 1000px;
 }
 
+.slick-prev:before,
+.slick-next:before {
+color: #2c3161;
+}
+
 
 .general-info .carousel img{
     max-width: 900px;
     margin: auto;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .general-info .carousel{
+        max-width: 100%;
+    }
+
+    .general-info .carousel img{
+        max-width: 100%;
+    }
+}
+
 
 
 .general-info .date-panel{
