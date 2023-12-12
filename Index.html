@@ -185,29 +185,41 @@
             </div>
             <div class="keynote-speakers-cont">
                 <h3>Keynote Speakers</h3>
-                <p>To be specified</p>
-                <div class="speakers-detail-cont not-yet">
+                <div id="speaderCont" class="speakers-detail-cont">
                     <p></p>
                     <div class="speaker-detail-cont">
                         <div class="speaker-detail-img-cont">
-                            <img src="images/avatar_1.jpg"/>
+                            <img src="images/ny.jpg"/>
                         </div>
-                        <h4>Kateřina Černá</h4>
-                        <p>Associate Professor at Charles University Faculty of Something</p>
+                        <div class="speaker-detail-text">
+                            <h4>To be specified</h4>
+                        </div>
                     </div>
                     <div class="speaker-detail-cont">
                         <div class="speaker-detail-img-cont">
-                            <img src="images/avatar_2.jpg"/>
+                            <img src="images/monica-spinola.jpg"/>
                         </div>
-                        <h4>Miloš Pospíšil</h4>
-                        <p>Associate Professor at Charles University Faculty of Something</p>
+                        <div class="speaker-detail-text">
+                            <img class="more-info-arrow" src="/images/arrow_white.png"/>
+                            <h4>Mónica Spínola</h4>
+                            <p>Functional Neuropsychological Assessment: past, present and future</p>
+                            <div class="more-info">
+                                <p>Graduated in Psychological Sciences, University of Coimbra</p>
+                                <p>Master’s degree in Clinical and Health Psychology – subarea of specialization in Clinical Psychogerontology, University of Coimbra</p>
+                                <p>PhDing in Neuropsychology, University of Coimbra</p>
+                                <p>Active member of laboratories: NeuroRehabLab, NOVA-Lincs; PsyAssessment Lab, University from Coimbra; and Neuropsychological Assessment and Aging Processes (NAAP), University ofCoimbra</p>
+                                <p>Experience in (Neuro)Psychology, in a clinical and research context</p>
+                                <p>Trainer in the areas of Neuropsychological Assessment and Rehabilitation</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="speaker-detail-cont">
                         <div class="speaker-detail-img-cont">
-                            <img src="images/avatar_3.jpg"/>
+                            <img src="images/ny.jpg"/>
                         </div>
-                        <h4>Lucie Černá</h4>
-                        <p>Associate Professor at Charles University Faculty of Something</p>
+                        <div class="speaker-detail-text">
+                            <h4>To be specified</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -413,6 +425,11 @@
                 slidesToShow: 1,
                 adaptiveHeight: true
             });
+            $('#speaderCont').click(function() {
+                $(this).find(".more-info").slideToggle("slow", function() {
+                    $(this).parent().find(".more-info-arrow").toggleClass( "rotated" );
+                });
+            })
         });
         
     </script>
