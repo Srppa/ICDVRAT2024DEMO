@@ -239,7 +239,7 @@ header .menu-cont nav{
 header .menu-cont li{
     list-style-type: none;
 
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 900;
 
     margin-bottom: 15px;
@@ -255,7 +255,7 @@ header .menu-cont .buy-button{
     color: #fff;
     border-radius: 5px;
 
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 900;
     
 
@@ -315,6 +315,11 @@ header .menu-cont .buy-button{
     align-items: center;
 
     margin: auto;
+}
+
+.sponsor-text{
+    margin: 30px auto 50px auto;
+    max-width: 700px;
 }
 
 @media screen and (max-width: 750px) {
