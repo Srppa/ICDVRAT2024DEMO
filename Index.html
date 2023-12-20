@@ -183,23 +183,30 @@
             <div class="keynote-speakers-cont">
                 <h3>Keynote Speakers</h3>
                 <div class="speakers-detail-cont">
-                    <p></p>
-                    <div class="speaker-detail-cont">
-                        <div class="speaker-detail-img-cont">
-                            <img src="images/ny.jpg"/>
-                        </div>
-                        <div class="speaker-detail-text">
-                            <h4>To be specified</h4>
-                        </div>
-                    </div>
                     <div id="speaderCont"  class="speaker-detail-cont">
                         <div class="speaker-detail-img-cont">
                             <img src="images/monica-spinola.jpg"/>
                         </div>
                         <div class="speaker-detail-text">
-                            <img class="more-info-arrow" src="/images/arrow_white.png"/>
                             <h4>Mónica Spínola</h4>
                             <p>Functional Neuropsychological Assessment: past, present and future</p>
+                            <div class="more-info">
+                                <p>Graduated in Psychological Sciences, University of Coimbra</p>
+                                <p>Master’s degree in Clinical and Health Psychology – subarea of specialization in Clinical Psychogerontology, University of Coimbra</p>
+                                <p>PhDing in Neuropsychology, University of Coimbra</p>
+                                <p>Active member of laboratories: NeuroRehabLab, NOVA-Lincs; PsyAssessment Lab, University from Coimbra; and Neuropsychological Assessment and Aging Processes (NAAP), University ofCoimbra</p>
+                                <p>Experience in (Neuro)Psychology, in a clinical and research context</p>
+                                <p>Trainer in the areas of Neuropsychological Assessment and Rehabilitation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="speaderCont"  class="speaker-detail-cont">
+                        <div class="speaker-detail-img-cont">
+                            <img src="images/maria-schulteis.png"/>
+                        </div>
+                        <div class="speaker-detail-text">
+                            <h4>Maria T Schultheis</h4>
+                            <p>Technology and Cognition:  Examining new trends and opportunities</p>
                             <div class="more-info">
                                 <p>Graduated in Psychological Sciences, University of Coimbra</p>
                                 <p>Master’s degree in Clinical and Health Psychology – subarea of specialization in Clinical Psychogerontology, University of Coimbra</p>
@@ -254,9 +261,24 @@
             </div>
             </div>
         </section>
-        <section id="submisionsLink">
+        <section id="submisionsLink" class="abstract-cont">
             <h2>Abstract Submisions</h2>
-            <p>To be specified</p>
+            <div class="abstract-dates">
+                <p>01/01/2024 – Call for ‘2 pages’ Abstracts opens.</p>
+                <p>31/03/2024 – Call for ‘2 pages’ Abstracts closes.</p>
+                <p>19/05/2024 – Notification Acceptance/Rejection of Abstract.</p>
+                <p>16/06/2024 – Revised Abstracts Submission.</p>
+            </div>
+            <div class="abstract-notes">
+                <p>Note: All authors are required to submit a 2 pages abstract (abstract – introduction – methods – results – discussion – references). To create the abstract, the authors shoudl use the provided templates in Word or Latex  provided below.</p>
+                <p>All accepted abstracts will be published in the Book of Abstracts/Proceedings in the form of a SCOPUS listed publication.</p>
+            </div>
+            <div class="abstract-templates">
+                <h3>Templates</h3>
+                <a class="word" href="documents/ICDVRAT_Template.docx" target="_blank">Word</a>
+                <p>or</p>
+                <a class="latex" href="https://www.overleaf.com/read/cvwtydnybzjh#c42561" target="_blank">LaTeX</a>
+            </div>
         </section>
         <section id="commiteesLink" class="committees-cont">
             <h2>Commitees</h2>
@@ -423,11 +445,11 @@
                 slidesToShow: 1,
                 adaptiveHeight: true
             });
-            $('#speaderCont').click(function() {
+            /*$('#speaderCont').click(function() {
                 $(this).find(".more-info").slideToggle("slow", function() {
                     $(this).parent().find(".more-info-arrow").toggleClass( "rotated" );
                 });
-            })
+            })*/
         });
         
     </script>
