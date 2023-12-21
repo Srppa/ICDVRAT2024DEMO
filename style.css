@@ -591,6 +591,13 @@ header .menu-cont .buy-button{
     margin: 25px 0;
 }
 
+.abstract-cont .down-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .abstract-cont .abstract-notes p{
     max-width: 700px;
     font-size: 18px;
@@ -609,7 +616,7 @@ header .menu-cont .buy-button{
 }
 
 .abstract-cont .abstract-templates p{
-    margin: 5px 0;
+    margin: 5px 10px;
 }
 
 
