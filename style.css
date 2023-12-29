@@ -520,6 +520,13 @@ header .menu-cont .buy-button{
     border-bottom-right-radius: 10px;
 }
 
+.speaker-detail-text-sub{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .speaker-detail-text h4{
     font-size: 18px;
     color: #fff;
@@ -585,6 +592,15 @@ header .menu-cont .buy-button{
 
 .abstract-cont .abstract-dates p{
     margin: 10px 0;
+}
+
+.submit-abstract{
+    color: #ba0606;
+    text-decoration: underline;
+    display: block;
+    margin: 35px 0;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .abstract-cont .abstract-notes{
