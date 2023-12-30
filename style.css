@@ -482,6 +482,7 @@ header .menu-cont .buy-button{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .program-cont .speaker-detail-cont{
@@ -490,7 +491,7 @@ header .menu-cont .buy-button{
 
     max-width: 300px;
 
-    margin: 0 15px;
+    margin: 15px;
 
     text-align: center;
 
@@ -716,6 +717,7 @@ footer{
     font-weight: 900;
     display: flex;
     align-items: center;
+    padding-right: 20px;
 }
 
 .speaker-page-header-back-img{
@@ -733,7 +735,8 @@ footer{
 .speaker-page-main .speaker-detail-img-cont img{
     border-radius: 50%;
     border: solid 2px #2c3161;
-    width: 350px;
+    max-width: 350px;
+    width: 90%;
 }
 
 .speaker-page-main .speaker-detail-cont h2{
