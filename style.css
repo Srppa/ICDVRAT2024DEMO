@@ -603,6 +603,11 @@ header .menu-cont .buy-button{
     font-weight: 900;
 }
 
+.submit-abstract:hover{
+    color: #ba0606;
+    text-decoration: underline;
+}
+
 .abstract-cont .abstract-notes{
     margin: 25px 0;
 }
@@ -679,4 +684,109 @@ footer{
     background-position: bottom;
 
     color: #fff;
+}
+
+
+/* keynote-speaker-page */
+
+.speaker-page-header{
+    
+}
+
+
+.speaker-page-header-innner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.speaker-page-header-innner h1{
+    color: #fff;
+    font-size: 25px;
+    text-align: right;
+    max-width: 500px;
+}
+
+.speaker-page-header-back{
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.speaker-page-header-back-img{
+    width: 50px;
+    
+    transform: rotate(90deg);
+}
+
+.speaker-page-main{
+    padding-top: 10px !important;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.speaker-page-main .speaker-detail-img-cont img{
+    border-radius: 50%;
+    border: solid 2px #2c3161;
+    width: 350px;
+}
+
+.speaker-page-main .speaker-detail-cont h2{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.speaker-page-main .lecture-cont,
+.speaker-page-main .about-speaker{
+    max-width: 700px;
+    margin: auto;
+}
+
+.speaker-page-main .lecture-cont p,
+.speaker-page-main .about-speaker p{
+    text-align: justify;
+}
+
+.speaker-page-main .lecture-cont h3{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.speaker-page-main .lecture-cont p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.speaker-page-main .about-speaker{
+    margin-top: 60px;
+    border-top: solid 3px #2c3161;
+}
+
+.speaker-page-main .about-speaker h4{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.speaker-page-main .about-speaker a{
+    font-size: 18px;
+    color: #2c3161;
+    text-decoration: underline;
+}
+
+.speaker-page-main .about-speaker p{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.speaker-page-main .centered p{
+    text-align: center;
 }

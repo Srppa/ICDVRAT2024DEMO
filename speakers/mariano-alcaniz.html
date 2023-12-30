@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <title>ICDVRAT2024</title>
+    <meta name="description" content="Web for ICDVRAT conference">
+    <meta name="keywords" content="ICDVRAT VR Virtual Reality Conference">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header class="speaker-page-header" style="background-image: url(/images/background.jpg)">
+        <div class="speaker-page-header-innner">
+            <a class="speaker-page-header-back" href="/Index.html"> 
+                <img src="/images/arrow_white.png" class="speaker-page-header-back-img">
+                <span>Back</span>
+            </a>
+            <h1>15th International Conference on Disability, Virtual Reality & Associated Technologies</h1>
+        </div>
+    </header>
+    <main class="speaker-page-main">
+        <div class="speakers-detail-cont">
+            <div class="speaker-detail-cont">
+                <h2>Mariano Alcañiz</h2>
+                <div class="speaker-detail-img-cont">
+                    <img src="/images/Mariano.jpg"/>
+                </div>
+                <div class="lecture-cont">
+                    <h3>Could Embodied Conversational Agents Be the Future for Assessment and Interventions in Clinical Psychology?</h3>
+                    <div class="content" style="display: none;">
+                        <p>To be specifed</p>     
+                    </div>
+                </div>
+                <div class="about-speaker">
+                    <h4>About Speaker</h4>
+                    <p>Mariano Alcañiz, Ph.D., is founding director of the <a href="https://lableni.webs.upv.es/" target="_blank">Immersive Neurotechnologies Lab</a> (LabLENI) at UPV and Professor (tenure position) of Biomedical Engineering at the Polytechnic University of Valencia.</p>
+                    <p>His general research interests hover around a better understanding and enhancement of human cognition combining insights and methods from computer science, psychology, and neuroscience. His work is centered on using empirical, behavioural science methodologies to explore people as they interact in digital worlds, but he also engages in research geared towards developing new ways to produce Extended Reality (XR) simulations. Towards this end, he has been involved in projects related to clinical psychology, neurodevelopmental disorders, consumer neuroscience, organizational neuroscience, education, and training.</p>
+                    <p>He has published more than 350 academic papers, in interdisciplinary journals as well domain-specific journals in the fields of biomedical engineering, computer science, psychology, marketing, management, psychology and education. His work has been continuously funded by the Spanish Research Agency and the European Commission for 30 years. He has been  coordinator of several national R&D programs of excellence, program coordinator of the Information Society Technology (IST) of the Ministry of Science and Innovation of Spain and he has been the Spanish representative for ICT area at the Horizon 2020 European Research Program Committee. He is also member of the executive committee of EURO-XR association. He has also founded several spin-off companies related with his research field.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer style="background-image: url(images/background.jpg)">
+        <p>© Copyright 2024 ICDVRAT 2024. All Rights Reserved.</p>
+        <p>Web made by Pavel Srp</p>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $("#menuOnHidden").click(function() {
+            $("#menuOnHidden").toggle();
+            $("#menu").slideToggle(300);
+            });
+            $("#menuOff").click(function() {
+                $("#menu").slideToggle(300, function() {
+                    $("#menuOnHidden").toggle();
+                });
+            });
+            $("#menu li").click(function() {
+                $("#menu").toggle();
+                $("#menuOnHidden").toggle();
+                $("html, body").animate({ scrollTop: $("" + $(this).data()[""]).offset().top }, 300);
+            });
+            $("#programButton").click(function() {
+                $("html, body").animate({ scrollTop: $("#programLink").offset().top }, 300);
+            });
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+            /*$('#speaderCont').click(function() {
+                $(this).find(".more-info").slideToggle("slow", function() {
+                    $(this).parent().find(".more-info-arrow").toggleClass( "rotated" );
+                });
+            })*/
+        });
+        
+    </script>
+</body>
+</html>
