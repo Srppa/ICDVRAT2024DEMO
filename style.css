@@ -841,3 +841,12 @@ footer{
 .speaker-page-main .centered p{
     text-align: center;
 }
+
+.bold-red{
+    color: #ba0606;
+    font-weight: 900;
+}
+
+.bold-red-intro{
+    margin: 0px 0 20px 0;
+}
