@@ -865,6 +865,21 @@ footer{
     margin: 30px;
 }
 
+.travel-page-main .download-con{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.travel-page-main .download-travel{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c3161;
+    text-decoration: underline;
+    
+}
+
 .travel-page-main .guide-pictures .wide{
     max-width: 800px;
 }
