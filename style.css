@@ -578,6 +578,14 @@ header .menu-cont .buy-button{
     margin-bottom: 45px;
 }
 
+.logistics-cont .travel-info a{
+    display: block;
+    margin: 25px 0;
+    color: #2c3161;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
 .logistics-cont > div:last-child{
     margin-bottom: auto;
 }
@@ -840,6 +848,43 @@ footer{
 
 .speaker-page-main .centered p{
     text-align: center;
+}
+
+.travel-page-main h2{
+    margin-bottom: 30px;
+}
+
+.travel-page-main .guide-pictures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.travel-page-main .guide-pictures img{
+    width: 100%;
+    margin: 30px;
+}
+
+.travel-page-main .guide-pictures .wide{
+    max-width: 800px;
+}
+
+.travel-page-main .guide-pictures .narrow{
+    max-width: 450px;
+}
+
+.travel-page-main .guide-pictures .small{
+    max-width: 350px;
+}
+
+.travel-page-main{
+    text-align: justify;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.travel-page-main p{
+    margin-bottom: 20px;
 }
 
 .bold-red{
