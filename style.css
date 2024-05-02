@@ -902,6 +902,21 @@ footer{
     margin-bottom: 20px;
 }
 
+.hotels-page-main > p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.acomodation-info a{
+    display: block;
+    margin: 25px 0;
+    color: #2c3161;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+
 .hotels-page-main h2{
     margin-bottom: 30px;
 }
@@ -965,6 +980,10 @@ footer{
     color: #2c3161;
     text-decoration: underline;
     
+}
+
+.hotels-page-main .other-info{
+    margin-bottom: 10px;
 }
 
 .bold-red{

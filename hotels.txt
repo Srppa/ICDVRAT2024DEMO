@@ -1,0 +1,48 @@
+<div class="list">
+            <div class="item">
+                <div class="item-header">
+                    <h3><span class="stars"></span></h3>
+                    <a></a>
+                </div>
+            </div>
+            <div class="other-info">
+                <p class="price"></p>
+                <p class="price"></p>
+            </div>
+        </div>
+
+
+
+Adalbert Hotel - https://www.hoteladalbert.cz/cs/ ***
+1500-2000 Kč/night, from 77 e
+Hostel Dakura - https://hosteldakura.com 
+cheaper, some rooms don`t have private bathroom
+1000 Kč/night
+Hotel Carl Inn - https://carlhotel.cz ****
+1000 - 2000 Kč/night
+Hotel Wilhelm - http://www.hotelwilhelm.cz/#hlavni ***
+1000 - 2000 Kč/night 
+Pension Paťanka - https://www.booking.com/hotel/cz/pension-patanka-prague.cs.html
+1500 Kč/night
+
+------
+Dorm rooms Thákurova - https://www.suz.cvut.cz/cz/dlouhodobe-ubytovani/masarykova-kolej 
+1200 Kč - one  person room/night
+1600 Kč - two person room/night
+1950 Kč - three person room/night
+limited amounts of rooms, needs to be reserved very soon (dormitories)
+-----
+
+Hotel Pyramida - https://www.orea.cz/hotel-pyramida ****
+1500 - 2000 Kč/night
+Apartments Praha 6 - https://booking.previo.cz/index/step-2/?hotId=28318&currency=CZK&lang=cs&prpId=1523&guestFilter=1&hotelDetail=1&redirectType=iframe&hideTabs=pricelist&PHPSESSID=5hoph5vt2259j5nev13l5083pk&highlightRoomType=655028 
+1200 - 1500 Kč/night
+pension apartments
+Grand Hotel International - https://www.hotelint.cz ****
+1500 - 2000 Kč/night/person
+Koleje ČZU
+dormitories, shared rooms 350 Kč/night person
+shared bathrooms
+limited amounts of rooms, needs to be reserved very soon
+Tabulka seznam hotelů: 
+https://docs.google.com/spreadsheets/d/14UNkxao5dU_S4RM9oRLD9ubraLBIT2VKCYLHPKY0nWQ/edit#gid=0
