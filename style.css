@@ -902,6 +902,71 @@ footer{
     margin-bottom: 20px;
 }
 
+.hotels-page-main h2{
+    margin-bottom: 30px;
+}
+
+.hotels-page-main .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.hotels-page-main .item{
+    width: 800px;
+    max-width: 100%;
+    border-bottom: 3px solid #2c3161;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.hotels-page-main .stars{
+    margin-left: 5px;
+}
+
+.hotels-page-main .other-info p::before{
+    content: "•  ";
+}
+
+.hotels-page-main .other-info p{
+    margin-top: 8px;
+    font-size: 21px;
+    text-align: left;
+}
+
+
+.hotels-page-main .item h3{
+    font-size: 25px;
+}
+
+.hotels-page-main .item a{
+    color: #2c3161;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.hotels-page-main .item .item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotels-page-main .download-con{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hotels-page-main .download-travel{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c3161;
+    text-decoration: underline;
+    
+}
+
 .bold-red{
     color: #ba0606;
     font-weight: 900;
