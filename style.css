@@ -998,3 +998,7 @@ footer{
 .bold-red-intro{
     margin: 0px 0 20px 0;
 }
+
+.dissa{
+    display: none !important;
+}
