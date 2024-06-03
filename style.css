@@ -611,6 +611,16 @@ header .menu-cont .buy-button{
     margin-bottom: 20px;
 }
 
+.terms-condi{
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.terms-condi a{
+    color:#2c3161;
+    text-decoration: underline;
+}
+
 .abstract-cont .abstract-dates p{
     margin: 10px 0;
 }
