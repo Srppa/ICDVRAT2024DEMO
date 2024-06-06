@@ -607,6 +607,13 @@ header .menu-cont .buy-button{
     margin-bottom: 40px;
 }
 
+.registration-cont .registry-button a{
+    text-decoration: underline;
+    font-weight: 900;
+    color: #ba0606;
+}
+
+
 .registration-cont .bottom-registry-text p{
     margin-bottom: 20px;
 }
