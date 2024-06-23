@@ -465,7 +465,7 @@ header .menu-cont .buy-button{
 }
 
 .program-cont .schedule-cont{
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 .program-cont .pdf-program-cont{
@@ -508,6 +508,15 @@ header .menu-cont .buy-button{
     text-align: center;
 
     cursor: pointer;
+}
+
+.program-cont .program-link{
+    margin-top: 30px;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3161;
+    text-decoration: underline;
 }
 
 .program-cont .speaker-detail-img-cont{
