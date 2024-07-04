@@ -658,9 +658,40 @@ header .menu-cont .buy-button{
     font-weight: 900;
 }
 
+.submisions-subheader{
+    margin-bottom: 15px;
+}
+
+.demo-header{
+    color: #ba0606;
+}
+
+.demo-link{
+    color: #ba0606;
+    text-decoration: underline;
+}
+
+.demo-link:hover{
+    color: #ba0606;
+    text-decoration: underline;
+}
+
+.submissions-sub{
+    margin-bottom: 35px;
+}
+
+.demo-header > a{
+    color: #ba0606;
+    text-decoration: underline;
+}
+
 .submit-abstract:hover{
     color: #ba0606;
     text-decoration: underline;
+}
+
+.abstract-cont > h2{
+    margin-bottom: 25px;
 }
 
 .abstract-cont .abstract-notes{
