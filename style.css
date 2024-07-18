@@ -605,6 +605,15 @@ header .menu-cont .buy-button{
     margin-bottom: auto;
 }
 
+.contact-info p:nth-child(2){
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    text-decoration: underline;
+}
+
 .registration-cont p{
     margin-bottom: 10px;
 }
@@ -836,6 +845,7 @@ footer{
 }
 
 .main-logo-image{
+    width: 100%;
     max-width: 675px;
 }
 
@@ -929,6 +939,10 @@ footer{
     align-items: center;
 }
 
+.specials-cont > *{
+    margin-bottom: 30px;
+}
+
 .special-detail-text{
     position: relative;
 }
@@ -958,6 +972,15 @@ footer{
 
 .specials-sub .speaker-detail-img-cont img{
     margin-bottom: -7px;
+}
+
+.speci-show-text a{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+#galaExpandButton{
+    transform: rotate(-90deg);
 }
 
 .speaker-detail-text .speci-show-text{
@@ -1102,6 +1125,50 @@ footer{
     margin-bottom: 10px;
 }
 
+.gala-detail-cont{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.gala-detail-cont > p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.gala-info > p{
+    margin-bottom: 10px;
+}
+
+.gala-info a{
+    text-decoration: underline;
+}
+
+#specials{
+    margin-top: 35px;
+}
+
+.gala-detail-cont h3{
+    margin-top: 25px;
+}
+
+.gala-info .gala-info-break{
+    margin-bottom: 30px;
+}
+
+.gala-detail-cont .mapouter{
+    margin-top: 40px;
+    margin: 30px auto;
+    height: 400px;
+}
+
+.gala-pictures > img{
+    width: 100%;
+    max-width: 750px;
+    margin-top: 30px;
+}
+
 .bold-red{
     color: #ba0606;
     font-weight: 900;
@@ -1113,4 +1180,8 @@ footer{
 
 .dissa{
     display: none !important;
+}
+
+.old {
+    color: #6F727B;
 }

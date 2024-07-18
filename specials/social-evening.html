@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+    <title>ICDVRAT2024</title>
+    <meta name="description" content="Web for ICDVRAT conference">
+    <meta name="keywords" content="ICDVRAT VR Virtual Reality Conference">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header class="speaker-page-header" style="background-image: url(/images/background.jpg)">
+        <img class="logo-wide-top" src="/images/logo_wide.png"/>
+        <div class="speaker-page-header-innner">
+            <a class="speaker-page-header-back" href="/Index.html#specials"> 
+                <img src="/images/arrow_white.png" class="speaker-page-header-back-img">
+                <span>Back</span>
+            </a>
+            <div class="speaker-page-header-title">
+                <img class="logo-wide" src="/images/logo_wide.png"/>
+                <h1>15th International Conference on Disability, Virtual Reality & Associated Technologies</h1>
+            </div>
+        </div>
+    </header>
+    <main class="gala-page-main">
+        <div class="gala-detail-cont">
+            <h2>Social Evening</h2>
+            <p>We invite you to join our conference Social Evening & Dinner on Wednesday, September 4. located at Loď Pivovar (‘The Ship Brewery’). Traditional Czech cuisine and microbrewery situated on the anchored boat on river Vltava are combined to offer a unique experience. The guests will have a chance to experience a Brewery Tour from the Headbrewer.</p>
+            <p>The venue capacity is limited to 80 seats. Tickets are still available, secure your place and don’t miss the opportunity of joining the celebrations. Social dinner (€ 50) is not included in the registration fee.</p>
+            <h3>Time and Location</h3>
+            <div class="gala-info">
+                <p>Dvořákovo nábřeží, Štefánikův most</p>
+                <p class="gala-info-break">Kotviště číslo 19, 110 00, Prague 1</p>
+                
+
+                <p>Event info: September 4th, 2024</p>
+                <p>Arrival at the location: 19:30</p>
+                <p class="gala-info-break">Social Program: 20:00 - 23:00</p>
+
+                <p><a>https://www.lodpivovar.cz/</a></p>
+            </div>
+            
+
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Kotvi%C5%A1t%C4%9B%20%C4%8D%C3%ADslo%2019,%20110%2000,%20Prague%201,&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://embedgooglemap.net/124/"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+
+            <h3>More Pictures</h3>
+            <div class="gala-pictures">
+                <img src="/images/pivo-1.jpg"/>
+                <img src="/images/pivo-2.jpg"/>
+            </div>
+        </div>
+    </main>
+    <footer style="background-image: url(../images/background.jpg)">
+        <p>© Copyright 2024 ICDVRAT 2024. All Rights Reserved.</p>
+        <p>Web made by Pavel Srp</p>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $("#menuOnHidden").click(function() {
+            $("#menuOnHidden").toggle();
+            $("#menu").slideToggle(300);
+            });
+            $("#menuOff").click(function() {
+                $("#menu").slideToggle(300, function() {
+                    $("#menuOnHidden").toggle();
+                });
+            });
+            $("#menu li").click(function() {
+                $("#menu").toggle();
+                $("#menuOnHidden").toggle();
+                $("html, body").animate({ scrollTop: $("" + $(this).data()[""]).offset().top }, 300);
+            });
+            $("#programButton").click(function() {
+                $("html, body").animate({ scrollTop: $("#programLink").offset().top }, 300);
+            });
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+            /*$('#speaderCont').click(function() {
+                $(this).find(".more-info").slideToggle("slow", function() {
+                    $(this).parent().find(".more-info-arrow").toggleClass( "rotated" );
+                });
+            })*/
+        });
+        
+    </script>
+</body>
+</html>
