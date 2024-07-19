@@ -605,9 +605,13 @@ header .menu-cont .buy-button{
     margin-bottom: auto;
 }
 
+.contact-info p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
 .contact-info p:nth-child(2){
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .contact-info a {
