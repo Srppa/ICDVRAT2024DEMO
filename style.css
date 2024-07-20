@@ -1058,6 +1058,25 @@ footer{
     text-decoration: underline;
 }
 
+.speaker-funding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaker-funding .speaker-fund-digi{
+    width: 200px;
+    max-width: 100%;
+}
+
+.speaker-funding .speaker-fund-eu{
+    width: 500px;
+    max-width: 100%;
+}
+
+.about-speaker .last-para{
+    margin-top: 45px;
+}
 
 
 .hotels-page-main h2{
