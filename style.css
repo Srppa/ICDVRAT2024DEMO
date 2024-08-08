@@ -1192,6 +1192,16 @@ footer{
     margin-top: 30px;
 }
 
+.buy-social-buttons{
+    margin-top: 23px;
+    margin-bottom: 23px;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3161;
+  text-decoration: underline;
+}
+
 .bold-red{
     color: #ba0606;
     font-weight: 900;
