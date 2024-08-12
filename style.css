@@ -1020,7 +1020,6 @@ footer{
 }
 
 .travel-page-main .download-con{
-    display: none !important;
     margin: 30px 0;
     display: flex;
     justify-content: center;
