@@ -902,6 +902,7 @@ footer{
 
 .speaker-page-main .lecture-cont h3{
     margin-top: 10px;
+    margin-bottom: 15px;
     font-size: 25px;
 }
 
@@ -911,7 +912,7 @@ footer{
 }
 
 .speaker-page-main .about-speaker{
-    margin-top: 60px;
+    margin-top: 40px;
     border-top: solid 3px #2c3161;
 }
 
