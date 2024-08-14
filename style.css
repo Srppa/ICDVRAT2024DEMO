@@ -21,7 +21,7 @@ h2{
 
     color: #2c3161;
 
-    margin: 40px 0 10px 0;
+    margin: 60px 0 10px 0;
 }
 
 h3{
@@ -276,6 +276,7 @@ header .menu-cont .buy-button{
 
 .about-cont h2{
     margin-bottom: 0px;
+    margin-top: 15px;
 }
 
 .about-cont .about-text .archive-link{
@@ -304,7 +305,7 @@ header .menu-cont .buy-button{
 }
 
 .sponsors-cont > h2{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .sponsors-cont .sponsors-grid{
@@ -377,7 +378,7 @@ header .menu-cont .buy-button{
 }
 
 .general-info .carousel-panel h3{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .general-info .carousel_cont{
@@ -465,7 +466,7 @@ header .menu-cont .buy-button{
 }
 
 .program-cont .schedule-cont{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .program-cont .pdf-program-cont{
@@ -486,7 +487,7 @@ header .menu-cont .buy-button{
 }
 
 .program-cont .keynote-speakers-cont > h3{
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .program-cont .speakers-detail-cont{
@@ -511,7 +512,7 @@ header .menu-cont .buy-button{
 }
 
 .program-cont .program-link{
-    margin-top: 30px;
+    margin-top: 10px;
     display: block;
     font-size: 24px;
     font-weight: bold;
@@ -601,6 +602,14 @@ header .menu-cont .buy-button{
     text-decoration: underline;
 }
 
+.logistics-cont .travel-info a:nth-of-type(1){
+    margin-top: 10px;
+}
+
+#practical{
+    margin-top: 50px;
+}
+
 .logistics-cont > div:last-child{
     margin-bottom: auto;
 }
@@ -611,7 +620,7 @@ header .menu-cont .buy-button{
 }
 
 .contact-info p:nth-child(2){
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .contact-info a {
@@ -995,7 +1004,9 @@ footer{
 }
 
 .travel-page-main h2{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 40px;
 }
 
 .travel-page-main .guide-pictures{
@@ -1028,6 +1039,11 @@ footer{
     max-width: 800px;
 }
 
+.travel-page-main h3{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
 .travel-page-main .guide-pictures .narrow{
     max-width: 450px;
 }
@@ -1043,7 +1059,25 @@ footer{
 }
 
 .travel-page-main p{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.socket-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.socket-images > img{
+    width: 200px;
+    margin-right: 15px;    
+    margin-bottom: 10px;
+}
+
+.atm-picture img{
+    max-width: 100%;
 }
 
 .hotels-page-main > p {
@@ -1053,7 +1087,7 @@ footer{
 
 .acomodation-info a{
     display: block;
-    margin: 25px 0;
+    margin: 10px 0 25px 0;
     color: #2c3161;
     font-weight: 900;
     text-decoration: underline;
@@ -1116,6 +1150,7 @@ footer{
 
 .hotels-page-main .item h3{
     font-size: 25px;
+    text-align: left;
 }
 
 .hotels-page-main .item a{
@@ -1170,7 +1205,8 @@ footer{
 }
 
 #specials{
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .gala-detail-cont h3{
