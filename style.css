@@ -709,6 +709,20 @@ header .menu-cont .buy-button{
     text-decoration: underline;
 }
 
+.agreement-link {
+    color: #2c3161;
+    text-decoration: underline;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.agreement-link:hover {
+    color: #2c3161;
+    text-decoration: underline;
+}
+
 .submit-abstract:hover{
     color: #ba0606;
     text-decoration: underline;
