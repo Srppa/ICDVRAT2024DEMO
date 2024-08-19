@@ -1050,7 +1050,7 @@ footer{
 }
 
 .travel-page-main .guide-pictures .wide{
-    max-width: 800px;
+    max-width: 650px;
 }
 
 .travel-page-main h3{
@@ -1184,6 +1184,25 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+.store-links{
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.store-links a{
+    display: block;
+    margin: 0 10px;
+}
+
+.store-links a img{
+    max-width: 200px;
+}
+
 
 .hotels-page-main .download-travel{
     display: block;
