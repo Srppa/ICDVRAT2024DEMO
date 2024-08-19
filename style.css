@@ -934,6 +934,10 @@ footer{
     text-align: justify;
 }
 
+.speaker-page-main .lecture-cont p{
+    margin-bottom: 10px;
+}
+
 .speaker-page-main .about-speaker{
     margin-top: 40px;
     border-top: solid 3px #2c3161;
