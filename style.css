@@ -1269,3 +1269,62 @@ footer{
 .old {
     color: #6F727B;
 }
+
+.program-day{
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.program-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    
+}
+
+.program-item .time{
+    width: 90px;
+    text-align: left;
+    background-color: #6F727B;
+}
+
+.program-item .content{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.program-item .content-header{
+    background-color: #2c3161;
+}
+
+.program-item .content-header h4{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.program-item .content-header h5{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.program-item .content-items{
+    position: relative;
+}
+
+.program-item .content-items p{
+    font-size: 19px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.program-item .content-items img{
+    width: 20px;
+    position: absolute;
+}

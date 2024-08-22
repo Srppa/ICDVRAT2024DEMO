@@ -1,0 +1,60 @@
+{
+    "parts": [
+        {
+            "time": "08:00 onwards",
+            "content": {
+                "heading": "Registration of the attendees",
+                "color": "grey-blue"
+            }
+        },
+        {
+            "time": "08:45",
+            "content": {
+                "heading": "Conference opening",
+                "color": "dark-blue"
+            }
+        },
+        {
+            "time": "09:00 – 10:25",
+            "content": {
+                "heading": "Cyberspace, Behavior and e-Therapy (CYBER) – Part 1",
+                "subtext": "Chair: Iveta Fajnerova",
+                "color": "light-blue",
+                "speakers": [
+                    {
+                        "authors": "Suriia Akhmetova &. Misgana Desalegne",
+                        "title": "VR-based training for improvement of positive body image: A Pilot Study",
+                        "icon": "blue-head"
+                    },
+                    {
+                        "authors": "Urme Bose &. Bryan Hilanga",
+                        "title": "A longitudinal exploratory study of neurophysiological reactions among young adults during psychometric testing",
+                        "icon": "blue-head"
+                    },
+                    {
+                        "authors": "Ling Zeng &. Maria Hashmi",
+                        "title": "Multisensory Integration and Embodiment: A Virtual Reality-Based Study",
+                        "icon": "blue-head"
+                    },
+                    {
+                        "authors": "Laura Valentina Lesmes Castañeda &. Selin Saglam",
+                        "title": "Gamification of a VR Task to Modify Attentional Bias Towards Body Parts Related to Weight",
+                        "icon": "blue-head"
+                    },
+                    {
+                        "authors": "Wu Panzifan &. Maria Castro",
+                        "title": "Exposure therapy in Virtual Reality for children and adolescents with selective mutism: A usability pilot study",
+                        "icon": "blue-head"
+                    }
+                ]
+            }
+        },
+        {
+            "time": "10:25 – 10:45",
+            "content": {
+                "heading": "Coffee break",
+                "color": "light-gray"
+            }
+        }
+    ] 
+}
