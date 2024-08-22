@@ -934,6 +934,10 @@ footer{
     text-align: justify;
 }
 
+.speaker-page-main .lecture-cont p{
+    margin-bottom: 10px;
+}
+
 .speaker-page-main .about-speaker{
     margin-top: 40px;
     border-top: solid 3px #2c3161;
@@ -1050,7 +1054,7 @@ footer{
 }
 
 .travel-page-main .guide-pictures .wide{
-    max-width: 800px;
+    max-width: 650px;
 }
 
 .travel-page-main h3{
@@ -1079,7 +1083,7 @@ footer{
 .socket-images{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -1090,8 +1094,13 @@ footer{
     margin-bottom: 10px;
 }
 
+.atm-picture {
+    text-align: center;
+}
+
 .atm-picture img{
     max-width: 100%;
+    
 }
 
 .hotels-page-main > p {
@@ -1184,6 +1193,25 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+.store-links{
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.store-links a{
+    display: block;
+    margin: 0 10px;
+}
+
+.store-links a img{
+    max-width: 200px;
+}
+
 
 .hotels-page-main .download-travel{
     display: block;
