@@ -1314,30 +1314,36 @@ footer{
 }
 
 .program-item .time{
-    width: 90px;
+    width: 130px;
     text-align: left;
     background-color: #6F727B;
+    font-size: 22px;
+    padding: 4px 7px;
+    color: #fff
 }
 
 .program-item .content{
     flex-grow: 1;
     text-align: left;
+    margin-left: 5px;
 }
 
 .program-item .content-header{
     background-color: #2c3161;
+    padding: 3px 7px;
+    color: #fff;
 }
 
 .program-item .content-header h4{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 0;
     margin-bottom: 2px;
 }
 
 .program-item .content-header h5{
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 0;
     margin-bottom: 2px;
 }
@@ -1348,8 +1354,12 @@ footer{
 
 .program-item .content-items p{
     font-size: 19px;
-    margin-left: 15px;
-    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.program-item .content-items p:first-of-type{
+    margin-top: 10px;
 }
 
 .program-item .content-items img{
