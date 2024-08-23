@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,400&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
         crossorigin="anonymous"></script>
@@ -34,8 +34,23 @@
     </header>
     <main class="program-page-main">
         <h2>Program</h2>
+        <div class="select-day">
+            <a>First day</a>
+            <a>Second day</a>
+            <a>Third day</a>
+        </div>
         <div id="program-days">
             <div id="dayCont" class="program-day">
+                <div class="program-item">
+                    <div class="time">
+                        <span>8:45 - 9:00</span>
+                    </div>
+                    <div class="content">
+                        <div class="content-header" style="background-color: coral;">
+                            <h4>Coffee break</h4>
+                        </div>
+                    </div>
+                </div>
                 <div class="program-item">
                     <div class="time">
                         <span>8:45 - 9:00</span>
@@ -46,12 +61,44 @@
                             <h5>Chair: Iveta Fajnerova</h5>
                         </div>
                         <div class="content-items">
-                            <img src="images/arrow_white.png">
-                            <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
+                            <div class="content-item">
+                                <div class="content-item-header">
+                                    <img src="images/debate_black.png">
+                                    <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
+                                </div>
+                                <p class="content-item-abstract">This presentation will review results of our successful first study involving the novel Multi-modular Memory Desensitization and Reconsolidation (3MDR) “walk and talk” PTSD therapy. While there were 2 prior publications on 3MDR in Dutch and British veterans, our study was unique in being the first to address military personnel with both PTSD and TBI, the first to include significant numbers of women (50%), and in demonstrating that the eye movement element of 3MDR added significant benefit, by randomizing participants to either receive this element or not. We will also provide preliminary results of our efforts to deliver 3MDR less expensively.</p>
+                            </div>
+                            <div class="content-item">
+                                <div class="content-item-header">
+                                    <img src="images/debate_black.png">
+                                    <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <div class="time">
+                        <span>8:45 - 9:00</span>
+                    </div>
+                    <div class="content">
+                        <div class="content-header">
+                            <h4>Cyberspace, Behavior and e-Therapy (CYBER) – Part 1</h4>
+                            <h5>Chair: Iveta Fajnerova</h5>
                         </div>
                         <div class="content-items">
-                            <img src="images/arrow_white.png">
-                            <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
+                            <div class="content-item">
+                                <div class="content-item-header">
+                                    <img src="images/debate_black.png">
+                                    <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
+                                </div>
+                            </div>
+                            <div class="content-item">
+                                <div class="content-item-header">
+                                    <img src="images/debate_black.png">
+                                    <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,7 +117,9 @@
                 console.log(json); // this will show the info it in firebug console
             });
 
-
+            $( ".content-item-header" ).on( "click", function() {
+                $(this).next().slideToggle()
+            } );
 
 
         });

@@ -1300,9 +1300,17 @@ footer{
 
 .program-day{
     margin: auto;
-    max-width: 1000px;
+    max-width: 850px;
     width: 100%;
     margin: auto;
+}
+
+.program-page-main{
+    padding: 20px 10px !important;
+}
+
+.program-page-main h2{
+    margin-top: 0px;
 }
 
 .program-item{
@@ -1310,15 +1318,16 @@ footer{
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
-    
+    margin-bottom: 5px;
 }
 
 .program-item .time{
-    width: 130px;
-    text-align: left;
+    max-width: 105px;
+    min-width: 105px;
+    text-align: center;
     background-color: #6F727B;
-    font-size: 22px;
-    padding: 4px 7px;
+    font-size: 20px;
+    padding: 5px 10px;
     color: #fff
 }
 
@@ -1330,39 +1339,97 @@ footer{
 
 .program-item .content-header{
     background-color: #2c3161;
-    padding: 3px 7px;
+    padding: 5px 10px;
     color: #fff;
 }
 
 .program-item .content-header h4{
-    font-weight: 500;
-    font-size: 22px;
-    margin-top: 0;
-    margin-bottom: 2px;
-}
-
-.program-item .content-header h5{
     font-weight: 500;
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 2px;
 }
 
+.program-item .content-header h5{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
 .program-item .content-items{
-    position: relative;
+    margin-left: 15px;
 }
 
-.program-item .content-items p{
-    font-size: 19px;
-    margin-left: 50px;
-    margin-bottom: 20px;
+.program-item .content-item{
+    margin-bottom: 25px;
 }
 
-.program-item .content-items p:first-of-type{
+.program-item .content-item-abstract{
     margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: justify;
 }
 
-.program-item .content-items img{
-    width: 20px;
-    position: absolute;
+.program-item .content-item-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    
 }
+
+.program-item .content-item:first-of-type{
+    margin-top: 15px;
+}
+
+
+.program-item .content-item-header img{
+    width: 35px;
+    height: 35px;
+}
+
+.program-item .content-item-header p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.program-item .content-item-header .content-item-title{
+    font-style: italic;
+}
+
+.program-item .light-blue{
+    background-color: #00b0f0;
+}
+
+.program-item .dark-blue{
+    background-color: #2f5496;
+}
+
+.program-item .dark-grey{
+    background-color: #4f4f4f;
+}
+
+.program-item .light-grey{
+    background-color: #a6a6a6;
+}
+
+.program-page-main .select-day{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 30px 0 35px 0;
+}
+
+.program-page-main .select-day a{
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: #2c3161;
+    margin: 0 10px;
+    color: #fff;
+}
+
