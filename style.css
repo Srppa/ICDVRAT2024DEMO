@@ -1377,7 +1377,7 @@ footer{
     justify-content: flex-start;
     align-items: center;
 
-    
+    cursor: pointer;
 }
 
 .program-item .content-item:first-of-type{

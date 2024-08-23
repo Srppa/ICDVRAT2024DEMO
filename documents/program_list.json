@@ -1,6 +1,7 @@
 {
     "parts": [
         {
+            "type": "simple",
             "time": "08:00 onwards",
             "content": {
                 "heading": "Registration of the attendees",
@@ -8,6 +9,7 @@
             }
         },
         {
+            "type": "simple",
             "time": "08:45",
             "content": {
                 "heading": "Conference opening",
@@ -15,12 +17,13 @@
             }
         },
         {
+            "type": "complex",
             "time": "09:00 – 10:25",
             "content": {
                 "heading": "Cyberspace, Behavior and e-Therapy (CYBER) – Part 1",
                 "subtext": "Chair: Iveta Fajnerova",
                 "color": "light-blue",
-                "speakers": [
+                "talks": [
                     {
                         "authors": "Suriia Akhmetova &. Misgana Desalegne",
                         "title": "VR-based training for improvement of positive body image: A Pilot Study",
@@ -50,6 +53,7 @@
             }
         },
         {
+            "type": "simple",
             "time": "10:25 – 10:45",
             "content": {
                 "heading": "Coffee break",
