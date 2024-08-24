@@ -8,7 +8,7 @@ body{
 }
 
 body > *{
-    padding: 40px 15px !important;
+    padding: 40px 22px !important;
 }
 
 h1{
@@ -1315,7 +1315,7 @@ footer{
 }
 
 .company-intro .intro-head:first-of-type{
-    margin-top: 2px;
+    margin-top: 18px;
     
 }
 
@@ -1340,17 +1340,54 @@ footer{
 .company-detail-cont .company-width-fix > p{
     margin-top: 5px;
     margin-bottom: 10px;
-    text-align: justify;
+    text-align: center;
 }
 
 .company-detail-cont{
     width: 1400px;
+    max-width: 100%;
 }
 
 .company-detail-cont .company-width-fix{
     max-width: 800px;
     margin: auto;
 }
+
+.panelist{
+    display: grid;
+    max-width: 95%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 35px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px auto 30px;
+}
+
+.panelist-item img{
+    width: 100%;
+}
+
+.panelist-item h4{
+    font-weight: 500;
+    font-size: 18px;
+    margin: -6px 0 0 0;
+    padding: 10px 0 0px;
+}
+
+.panelist-item a{
+    font-size: 18px;
+    text-decoration: underline;
+    color: #002060;
+}
+
+@media screen and (max-width: 850px) {
+    .panelist{
+        width: 400px;
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .bold-red{
     color: #ba0606;
