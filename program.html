@@ -35,73 +35,12 @@
     <main class="program-page-main">
         <h2>Program</h2>
         <div class="select-day">
-            <a>First day</a>
+            <a class="selected">First day</a>
             <a>Second day</a>
             <a>Third day</a>
         </div>
         <div id="program-days">
-            <div id="dayCont" class="program-day">
-                <div class="program-item">
-                    <div class="time">
-                        <span>8:45 - 9:00</span>
-                    </div>
-                    <div class="content">
-                        <div class="content-header" style="background-color: coral;">
-                            <h4>Coffee break</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="program-item">
-                    <div class="time">
-                        <span>8:45 - 9:00</span>
-                    </div>
-                    <div class="content">
-                        <div class="content-header">
-                            <h4>Cyberspace, Behavior and e-Therapy (CYBER) – Part 1</h4>
-                            <h5>Chair: Iveta Fajnerova</h5>
-                        </div>
-                        <div class="content-items">
-                            <div class="content-item">
-                                <div class="content-item-header">
-                                    <img src="images/debate_black.png">
-                                    <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
-                                </div>
-                                <p class="content-item-abstract">This presentation will review results of our successful first study involving the novel Multi-modular Memory Desensitization and Reconsolidation (3MDR) “walk and talk” PTSD therapy. While there were 2 prior publications on 3MDR in Dutch and British veterans, our study was unique in being the first to address military personnel with both PTSD and TBI, the first to include significant numbers of women (50%), and in demonstrating that the eye movement element of 3MDR added significant benefit, by randomizing participants to either receive this element or not. We will also provide preliminary results of our efforts to deliver 3MDR less expensively.</p>
-                            </div>
-                            <div class="content-item">
-                                <div class="content-item-header">
-                                    <img src="images/debate_black.png">
-                                    <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="program-item">
-                    <div class="time">
-                        <span>8:45 - 9:00</span>
-                    </div>
-                    <div class="content">
-                        <div class="content-header">
-                            <h4>Cyberspace, Behavior and e-Therapy (CYBER) – Part 1</h4>
-                            <h5>Chair: Iveta Fajnerova</h5>
-                        </div>
-                        <div class="content-items">
-                            <div class="content-item">
-                                <div class="content-item-header">
-                                    <img src="images/debate_black.png">
-                                    <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
-                                </div>
-                            </div>
-                            <div class="content-item">
-                                <div class="content-item-header">
-                                    <img src="images/debate_black.png">
-                                    <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="apendee" class="program-day">
             </div>
         </div>
     </main>
@@ -111,62 +50,128 @@
     </footer>
 
 
-    <template id="simple-program-item-template">
-        <div class="item">
-            <h2 class="title"></h2>
-            <p class="description"></p>
-        </div>
-    </template>
-
-
-    <template id="complex-program-item-template">
+    <template id="simpleProgramItemTemplate">
         <div class="program-item">
             <div class="time">
-                <span>8:45 - 9:00</span>
             </div>
             <div class="content">
                 <div class="content-header">
-                    <h4>Cyberspace, Behavior and e-Therapy (CYBER) – Part 1</h4>
-                    <h5>Chair: Iveta Fajnerova</h5>
-                </div>
-                <div class="content-items">
-                    <div class="content-item">
-                        <div class="content-item-header">
-                            <img src="images/debate_black.png">
-                            <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
-                        </div>
-                    </div>
-                    <div class="content-item">
-                        <div class="content-item-header">
-                            <img src="images/debate_black.png">
-                            <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
-                        </div>
-                    </div>
+                    <h4></h4>
                 </div>
             </div>
         </div>
     </template>
 
-    <template id="content-item-template">
+
+    <template id="complexProgramItemTemplate">
+        <div class="program-item">
+            <div class="time">
+            </div>
+            <div class="content">
+                <div class="content-header">
+                    <h4></h4>
+                    <h5></h5>
+                </div>
+                <div class="content-items">
+                    
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="contentItemTemplate">
         <div class="content-item">
             <div class="content-item-header">
                 <img src="images/debate_black.png">
-                <p><span class="content-item-authors">Suriia Akhmetova &. Misgana Desalegne</span> – <span class="content-item-title">VR-based training for improvement of positi body image: A Pilot Study</span></p>
+                <p><span class="content-item-authors"></span> – <span class="content-item-title"></span></p>
             </div>
+            <p class="content-item-abstract"></p>
         </div>
     </template>
     
     <script>
         $(document).ready(function(){
             
+            const simpleProgramItemTemplate = document.getElementById('simpleProgramItemTemplate');
+
+            const complexProgramItemTemplate = document.getElementById('complexProgramItemTemplate');
+
+            const contentItemTemplate = document.getElementById('contentItemTemplate');
+            
+
+    // Insert the cloned content into the container
+            const apendeeElement = document.getElementById('apendee');
+            
             $.getJSON("/documents/program_list.json", function(json) {
-                console.log(json); // this will show the info it in firebug console
+
+                for(let i = 0; i < json.parts.length; i++){
+
+                    let tempPart = json.parts[i];
+                    if(tempPart.type == "simple"){
+                        
+                        const clone = simpleProgramItemTemplate.content.cloneNode(true);
+
+                        clone.querySelector('.time').innerText = tempPart.time;
+                        clone.querySelector('.content-header h4').innerText = tempPart.content.heading;
+                        clone.querySelector('.content-header').classList.add(tempPart.content.color);
+
+                        apendeeElement.appendChild(clone);
+                    }
+                    else{
+
+                        const clone = complexProgramItemTemplate.content.cloneNode(true);
+
+                        clone.querySelector('.time').innerText = tempPart.time;
+                        clone.querySelector('.content-header h4').innerText = tempPart.content.heading;
+                        clone.querySelector('.content-header h5').innerText = tempPart.content.subtext;
+                        clone.querySelector('.content-header').classList.add(tempPart.content.color);
+
+
+                        for(let j = 0; j < tempPart.content.talks.length; j++){
+
+                            tempTalk = tempPart.content.talks[j]
+
+                            const talkClone = contentItemTemplate.content.cloneNode(true);
+
+                            talkClone.querySelector('.content-item-authors').innerText = tempTalk.authors;
+                            talkClone.querySelector('.content-item-title').innerText = tempTalk.title;
+                            talkClone.querySelector('.content-item-abstract').innerText = tempTalk.abstract;
+
+                            if(tempTalk.icon == "blue-head"){
+                                talkClone.querySelector('.content-item-header img').src = "/images/debate_blue.png"
+                            } else if ( tempTalk.icon == "black-head" ){
+                                talkClone.querySelector('.content-item-header img').src = "/images/debate_black.png"
+                            } else if ( tempTalk.icon == "blue-poster" ){
+                                talkClone.querySelector('.content-item-header img').src = "/images/poster_blue.png"
+                            } else if ( tempTalk.icon == "black-poster" ){
+                                talkClone.querySelector('.content-item-header img').src = "/images/poster_black.png"
+                            }
+                            
+
+                            clone.querySelector('.content-items').appendChild(talkClone);
+
+                        }
+
+
+                        apendeeElement.appendChild(clone);
+
+                        
+
+                    }
+
+                
+                }
+
+                 // this will show the info it in firebug console
+                 $( ".content-item-header" ).on( "click", function() {
+                    console.log("hoj");
+                    $(this).next().slideToggle()
+                });
+                
             });
 
-            $( ".content-item-header" ).on( "click", function() {
-                $(this).next().slideToggle()
-            } );
-
+            
+            
 
         });
         
