@@ -312,7 +312,7 @@ header .menu-cont .buy-button{
     display: grid;
 
     width: 860px;
-    max-width: 90%;
+    max-width: 95%;
 
     grid-template-columns: 1fr 1fr 1fr;
 
@@ -331,13 +331,19 @@ header .menu-cont .buy-button{
     max-width: 800px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 920px) {
+    .sponsors-cont .sponsors-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 650px) {
     .sponsors-cont .sponsors-grid{
         display: flex;
     
         flex-direction: column;
     
-        max-width: 80%;
+        max-width: 90%;
     
         margin: auto;
     }
@@ -1330,6 +1336,23 @@ footer{
     color: #fff
 }
 
+@media screen and (max-width: 800px) {
+    .program-item .time{
+        max-width: 60px;
+        min-width: 60px;
+        text-align: left;
+        background-color: #6F727B;
+        font-size: 18px;
+        padding: 5px 10px;
+        color: #fff
+    }
+
+    .onwards-word{
+        display: none;
+    }
+}
+
+
 .program-item .content{
     flex-grow: 1;
     text-align: left;
@@ -1413,6 +1436,10 @@ footer{
 
 .program-item .light-grey{
     background-color: #a6a6a6;
+}
+
+.program-item .orange{
+    background-color: #ed7d31;
 }
 
 .program-page-main .select-day{

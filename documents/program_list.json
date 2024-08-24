@@ -61,6 +61,157 @@
                 "heading": "Coffee break",
                 "color": "light-grey"
             }
+        },
+        {
+            "type": "complex",
+            "time": "10:45 - 12:30",
+            "content": {
+                "heading": "Cyberspace, Behavior and e-Therapy (CYBER) – Part 2",
+                "subtext": "Chair: Nicholas Shopland",
+                "color": "light-blue",
+                "talks": [
+                    {
+                        "authors": "Prince Paul Appiah",
+                        "title": "Predicting Dropout at an Innovative Tech-focused Vocational Education Program using Machine Learning",
+                        "icon": "blue-head",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    },
+                    {
+                        "authors": "Ilia Kulagin &. Daniel Velez Marin",
+                        "title": "Exploring Verbal Speech Patterns to assess Attachment Style and tendencies towards Anxiety and Depression",
+                        "icon": "blue-head",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    },
+                    {
+                        "authors": "Javad Modaresi &. Rafael Paulino",
+                        "title": "Multisensory Integration and Embodiment: A Virtual Reality-Based Study",
+                        "icon": "blue-head"
+                    },
+                    {
+                        "authors": "Sadia Maqsood",
+                        "title": "Cybersecurity Assessment and Training Simulator In Virtual Reality for Workplace Employees",
+                        "icon": "blue-head"
+                    },
+                    {
+                        "authors": "Fernanda Lima Pimentel &. Sandip Bhusal",
+                        "title": "Assessing Oxygenation Changes using fNIRS in a Time-Pressure Task",
+                        "icon": "blue-head"
+                    }
+                    ,
+                    {
+                        "authors": "Oluwatobiloba Sodade &. Yusuf Sani",
+                        "title": "Psychology of Frailty and Prediction of Fall among Elderly People Living in French Nursing Homes",
+                        "icon": "blue-head"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "simple",
+            "time": "12:30 - 13:30",
+            "content": {
+                "heading": "Lunch (provided)",
+                "color": "light-grey"
+            }
+        },
+        {
+            "type": "complex",
+            "time": "13:30 - 14:00",
+            "content": {
+                "heading": "Welcome session",
+                "subtext": "Iveta Fajnerová, Jiří Horáček, Lenka Lhotská",
+                "color": "dark-blue",
+                "talks": []
+            }
+        },
+        {
+            "type": "complex",
+            "time": "14:00 - 15:00",
+            "content": {
+                "heading": "Keynote talk: Professor Maria T Schultheis",
+                "subtext": "Chair: Bonnie Connor",
+                "color": "orange",
+                "talks": [
+                    {
+                        "authors": "",
+                        "title": "\"Technology & Cognition\": Examining new trends and opportunities",
+                        "icon": "star",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "complex",
+            "time": "15:00 - 16:00",
+            "content": {
+                "heading": "Session 1: VR exposure - Trauma",
+                "subtext": "Chair: TBS",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Michael Roy",
+                        "title": "Computer Monitor versus Augmented Reality: Expanding 3MDR Therapy for PTSD: A Randomized Controlled Trial (CARE4PTSD)",
+                        "icon": "black-head",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    },
+                    {
+                        "authors": "Raúl Durón-Figueroa",
+                        "title": "Development and Usability Evaluation of Virtual Environments for the Treatment of Post-Traumatic Stress Disorder in Earthquake Victims",
+                        "icon": "black-head",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    },
+                    {
+                        "authors": "Albert Rizzo",
+                        "title": "The Virtual Ukraine Project:  Trauma Therapy in Warzones with Virtual Reality",
+                        "icon": "black-head",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "simple",
+            "time": "16:00 - 16:30",
+            "content": {
+                "heading": "Coffee break",
+                "color": "light-grey"
+            }
+        },
+        {
+            "type": "complex",
+            "time": "16:30 – 17:20",
+            "content": {
+                "heading": "Session 2: VR exposure – Anxiety disorders",
+                "subtext": "Chair: Albert Skip Rizzo",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Soledad Quero",
+                        "title": "Overcoming traditional exposure treatments: Preliminary results from a Randomized Controlled Trial evaluating the efficacy of Projection-Based Augmented Reality Exposure Treatment for cockroach phobia",
+                        "icon": "black-head",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    },
+                    {
+                        "authors": "Soledad Quero",
+                        "title": "Enhancing exposure therapy effectiveness: projection-based augmented reality for specific cockroach phobia treatment compared to traditional treatment regarding stimuli variability",
+                        "icon": "black-poster",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    },
+                    {
+                        "authors": "Markéta Jablonská",
+                        "title": "Design and Evaluation of Virtual Environments for Exposure Therapy of Aviophobia: Early Feasibility Study",
+                        "icon": "black-poster",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    },
+                    {
+                        "authors": "Barbora Darmová",
+                        "title": "Evaluating Virtual Scenarios through the Lens of the Contrast Avoidance Model in the Context of Generalized Anxiety Disorder Treatment",
+                        "icon": "black-poster",
+                        "abstract": "ndnksd nkd sn n ksndknskd ndknskdnsk nk nknk nksndksndknskn"
+                    }
+                ]
+            }
         }
     ] 
 }

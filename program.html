@@ -83,7 +83,7 @@
         <div class="content-item">
             <div class="content-item-header">
                 <img src="images/debate_black.png">
-                <p><span class="content-item-authors"></span> – <span class="content-item-title"></span></p>
+                <p><span class="content-item-authors"></span><span class="inbetween"> – </span><span class="content-item-title"></span></p>
             </div>
             <p class="content-item-abstract"></p>
         </div>
@@ -134,6 +134,11 @@
                             const talkClone = contentItemTemplate.content.cloneNode(true);
 
                             talkClone.querySelector('.content-item-authors').innerText = tempTalk.authors;
+                            if(tempTalk.authors == ""){
+                                
+                                talkClone.querySelector('.inbetween').remove()
+                            }
+
                             talkClone.querySelector('.content-item-title').innerText = tempTalk.title;
                             talkClone.querySelector('.content-item-abstract').innerText = tempTalk.abstract;
 
