@@ -562,6 +562,7 @@ header .menu-cont .buy-button{
     font-size: 18px;
     color: #fff;
     margin: 0;
+    padding: 0 50px;
 }
 
 .speaker-detail-text p{
@@ -936,7 +937,7 @@ footer{
 }
 
 .speaker-page-main .lecture-cont p{
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -963,7 +964,7 @@ footer{
 }
 
 .speaker-page-main .about-speaker p{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 7px;
 }
 
@@ -1005,7 +1006,7 @@ footer{
     width: 30px;
     position: absolute;
     right: 17px;
-    top: 35px;
+    top: calc(50% - 10px);
 }
 
 .specials-sub .speaker-detail-img-cont img{
@@ -1020,6 +1021,8 @@ footer{
 #galaExpandButton{
     transform: rotate(-90deg);
 }
+
+
 
 .speaker-detail-text .speci-show-text{
     display: none;
@@ -1232,11 +1235,19 @@ footer{
     margin-bottom: 10px;
 }
 
+.gala-page-main {
+    padding-top: 20px !important;
+}
+
 .gala-detail-cont{
     margin: auto;
     display: flex;
     flex-direction: column;
     max-width: 800px;
+}
+
+.gala-detail-cont h2{
+    margin-top: 00px;
 }
 
 .gala-detail-cont > p{
@@ -1285,6 +1296,52 @@ footer{
   font-weight: bold;
   color: #2c3161;
   text-decoration: underline;
+}
+
+
+
+.company-intro .intro-head{
+    margin-top: 25px;
+    
+}
+
+.company-intro .intro-head:first-of-type{
+    margin-top: 2px;
+    
+}
+
+.company-intro .intro-head{
+    font-weight: 900;
+    
+}
+
+.company-intro .red-info{
+    color: #ba0606;
+}
+
+.company-intro .red-info a{
+    text-decoration: underline;
+}
+
+.company-intro p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.company-detail-cont .company-width-fix > p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.company-detail-cont{
+    width: 1400px;
+    max-width: calc(100% - 30px);
+}
+
+.company-detail-cont .company-width-fix{
+    max-width: 800px;
+    margin: auto;
 }
 
 .bold-red{
