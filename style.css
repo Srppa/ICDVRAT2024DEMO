@@ -1367,6 +1367,13 @@ footer{
     margin: auto;
 }
 
+.program-day .tbs{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    display: block;
+}
+
 .program-page-main{
     padding: 20px 10px !important;
 }
