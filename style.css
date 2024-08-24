@@ -1370,6 +1370,19 @@ footer{
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+
+
+.program-item.simple .content{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
 }
 
 .program-item .content-header h5{
@@ -1432,6 +1445,10 @@ footer{
 
 .program-item .dark-grey{
     background-color: #4f4f4f;
+}
+
+.program-item .nudz-blue{
+    background-color: #002060
 }
 
 .program-item .light-grey{

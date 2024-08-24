@@ -5,7 +5,7 @@
             "time": "08:00 onwards",
             "content": {
                 "heading": "Registration of the attendees",
-                "color": "grey-blue"
+                "color": "nudz-blue"
             }
         },
         {
@@ -18,7 +18,7 @@
         },
         {
             "type": "complex",
-            "time": "09:00 - 10:25",
+            "time": "09:00 – 10:25",
             "content": {
                 "heading": "Cyberspace, Behavior and e-Therapy (CYBER) – Part 1",
                 "subtext": "Chair: Iveta Fajnerova",
@@ -56,7 +56,7 @@
         },
         {
             "type": "simple",
-            "time": "10:25 - 10:45",
+            "time": "10:25 – 10:45",
             "content": {
                 "heading": "Coffee break",
                 "color": "light-grey"
@@ -64,7 +64,7 @@
         },
         {
             "type": "complex",
-            "time": "10:45 - 12:30",
+            "time": "10:45 – 12:30",
             "content": {
                 "heading": "Cyberspace, Behavior and e-Therapy (CYBER) – Part 2",
                 "subtext": "Chair: Nicholas Shopland",
@@ -108,7 +108,7 @@
         },
         {
             "type": "simple",
-            "time": "12:30 - 13:30",
+            "time": "12:30 – 13:30",
             "content": {
                 "heading": "Lunch (provided)",
                 "color": "light-grey"
@@ -116,7 +116,7 @@
         },
         {
             "type": "complex",
-            "time": "13:30 - 14:00",
+            "time": "13:30 – 14:00",
             "content": {
                 "heading": "Welcome session",
                 "subtext": "Iveta Fajnerová, Jiří Horáček, Lenka Lhotská",
@@ -126,7 +126,7 @@
         },
         {
             "type": "complex",
-            "time": "14:00 - 15:00",
+            "time": "14:00 – 15:00",
             "content": {
                 "heading": "Keynote talk: Professor Maria T Schultheis",
                 "subtext": "Chair: Bonnie Connor",
@@ -143,7 +143,7 @@
         },
         {
             "type": "complex",
-            "time": "15:00 - 16:00",
+            "time": "15:00 – 16:00",
             "content": {
                 "heading": "Session 1: VR exposure - Trauma",
                 "subtext": "Chair: TBS",
@@ -172,7 +172,7 @@
         },
         {
             "type": "simple",
-            "time": "16:00 - 16:30",
+            "time": "16:00 – 16:30",
             "content": {
                 "heading": "Coffee break",
                 "color": "light-grey"
