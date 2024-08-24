@@ -39,8 +39,14 @@
             <a>Second day</a>
             <a>Third day</a>
         </div>
-        <div id="program-days">
-            <div id="apendee" class="program-day">
+        <div id="programDays">
+            <div id="apendee1" class="program-day">
+            </div>
+            <div id="apendee2" class="program-day">
+                <span class="tbs">TBS</span>
+            </div>
+            <div id="apendee3" class="program-day">
+                <span class="tbs">TBS</span>
             </div>
         </div>
     </main>
@@ -97,13 +103,13 @@
             
 
     // Insert the cloned content into the container
-            const apendeeElement = document.getElementById('apendee');
+            const apendee1Element = document.getElementById('apendee1');
             
             $.getJSON("/documents/program_list.json", function(json) {
 
-                for(let i = 0; i < json.parts.length; i++){
+                for(let i = 0; i < json.day1.length; i++){
 
-                    let tempPart = json.parts[i];
+                    let tempPart = json.day1[i];
                     if(tempPart.type == "simple"){
                         
                         const clone = simpleProgramItemTemplate.content.cloneNode(true);
@@ -112,7 +118,7 @@
                         clone.querySelector('.content').innerText = tempPart.content.heading;
                         clone.querySelector('.content').classList.add(tempPart.content.color);
 
-                        apendeeElement.appendChild(clone);
+                        apendee1Element.appendChild(clone);
                     }
                     else{
 
@@ -122,6 +128,10 @@
                         clone.querySelector('.content-header h4').innerText = tempPart.content.heading;
                         clone.querySelector('.content-header h5').innerText = tempPart.content.subtext;
                         clone.querySelector('.content-header').classList.add(tempPart.content.color);
+
+                        if(tempPart.content.talks.length < 1){
+                            clone.querySelector('.content-header').classList.add("heightFix");
+                        }
 
 
                         for(let j = 0; j < tempPart.content.talks.length; j++){
@@ -155,7 +165,7 @@
                         }
 
 
-                        apendeeElement.appendChild(clone);
+                        apendee1Element.appendChild(clone);
 
                         
 
@@ -165,14 +175,24 @@
                 }
 
                  // this will show the info it in firebug console
-                 $( ".content-item-header" ).on( "click", function() {
-                    console.log("hoj");
+                $( ".content-item-header" ).on( "click", function() {
                     $(this).next().slideToggle()
                 });
+
+                
                 
             });
 
-            
+            $(".select-day > a").on( "click", function() {
+
+                $(".select-day > a").removeClass("selected")
+
+                $( this ).toggleClass("selected")
+
+                $(".program-day").hide();
+                
+                $(".program-day:nth-child("+ ($(this).index() + 1) +")").show();
+            });
             
 
         });

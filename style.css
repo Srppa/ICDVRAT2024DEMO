@@ -1494,3 +1494,19 @@ footer{
     display: none;
 }
 
+#apendee2, #apendee3{
+    display: none;
+}
+
+.heightFix{
+    height: calc(100% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+    .program-page-main .select-day a{
+        word-spacing: 40px;
+    }
+}
