@@ -1264,6 +1264,10 @@ footer{
     margin-bottom: 15px;
 }
 
+.gala-detail-cont .margin-fix{
+    margin-top: 20px;
+}
+
 .gala-info > p{
     margin-bottom: 10px;
 }
@@ -1371,6 +1375,7 @@ footer{
 
 .company-detail-page .link{
     text-align: center;    
+    margin-top: 20px;
 }
 
 .company-detail-page a{
@@ -1426,6 +1431,16 @@ footer{
         grid-template-columns: 1fr;
     }
 }
+
+.company-detail-page .points {
+    margin: 0 0 5px;
+    margin-left: 15px;
+}
+
+.company-detail-page .points span{
+    margin-right: 20px;
+}
+
 
 
 .bold-red{
