@@ -293,26 +293,26 @@
                         "authors": "Isaac Lee",
                         "title": "Can an LLM AI-Augmented ADI-R Improve Diagnostic Pathways and Educational Outcomes for Autistic Individuals?",
                         "icon": "black-head",
-                        "abstract": "x"
+                        "abstract": "There are several significant issues in Autism diagnostics today including gender, race, and socioeconomic bias and the phenomenon of subjective observational inventories which are exacerbated for individuals with autism without intellectual disability. Even “gold standard” diagnostic tools like the ADI-R suffer from cost, time, accuracy, efficiency, and scalability issues. A promising and emerging area of study within this field is concerned with the applicability of LLM AI. This paper will argue for a theoretical framework surrounding the potential augmentation of the ADI-R using LLM AI to improve both diagnostic pathways and educational outcomes for individuals with autism without intellectual disability."
                     },
                     {
                         "authors": "William Farr",
                         "title": "External Fine Motor Markers of Neurodivergence: Pilot Results of the Tang Ball",
                         "icon": "black-head",
-                        "abstract": "x"
+                        "abstract": "At two previous ICDVRAT conferences (2018, 2022) the authors reported on the concept, and then development phase of a tangible toy that could be used to assist in the diagnosis of autism in pre-school children. Here, results of the first round of testing on the intended user group are reported. Results show variation between pre-school neurodivergent and neurotypical populations as predicted in terms of speed and accuracy of movement. Fine motor movement can be a potential biomarker for autism that would be less dependent on observational data, and more objective."
                     },
                     {
                         "authors": "Sean Haddick",
                         "title": "Through The Eyes of An Autistic Child: The Role of Technology and Autistic Researchers in Developing Interventions",
                         "icon": "black-head",
-                        "abstract": "x"
+                        "abstract": "TBS"
                     }
                     ,
                     {
                         "authors": "Pascal Meital",
                         "title": "Online Course for Autistic Adults: Usability Study and Participatory Design",
                         "icon": "black-head",
-                        "abstract": "x"
+                        "abstract": "This paper explores the development process of an online course for autistic adults. Three studies were conducted: usability study, participatory design study, and pilot evaluation study. Key findings emphasize the importance of customization of the presentation of information, clarity in instruction delivery, mitigation of distractions, and motivation enhancement during possible challenges. Insights highlight the need to accommodate unique perceptual traits, adapt instructions, foster a clear learning environment, and address possible challenges sensitively. These findings inform the design of effective online courses tailored for autistic adults."
                     }
                 ]
             }
@@ -337,19 +337,19 @@
                         "authors": "Ali Adjorlu",
                         "title": "Virtual Station: Virtual Reality as a Bridge to Independence in Public Transportation for Autistic Youth",
                         "icon": "black-head",
-                        "abstract": "x"
+                        "abstract": "In this paper, we present a virtual reality application designed to prepare autistic children for independent use of public transportation. A virtual subway train station is designed to look similar to a real train station in Copenhagen next to a special education school. This extended abstract describes the VR intervention, the results of an explorative evaluation, and future iterations of the project."
                     },
                     {
                         "authors": "Ali Adjorlu",
                         "title": "Enhancing Social Skills in Autism Spectrum Disorder: A Virtual Reality Intervention for Educational Settings",
                         "icon": "black-poster",
-                        "abstract": "x"
+                        "abstract": "In this paper, we explore the use of a Virtual Reality (VR) environment designed for special education teachers to enhance the social skills of children with Autism Spectrum Disorder (ASD).The effectiveness of this tool was preliminarily evaluated by European teachers during a Learning, Teaching, and Training Event under the Erasmus+ GAMESS project. Initial feedback from the participants, teachers from multiple European countries, indicates a positive attitude towards integrating VR in education, though some reservations about technology use were noted. The findings suggest that VR could be a supportive tool in special education for enhancing learning experiences and social interaction among autistic children."
                     },
                     {
                         "authors": "Sean Haddick",
                         "title": "Metahumans: A Framework for Assessment and Feedback of Social-Emotional Reciprocity",
                         "icon": "black-poster",
-                        "abstract": "x"
+                        "abstract": "Current assessment and training in regard to Facial Emotion Expression Recognition (FEER) indicates that deficits in mimicry or mirroring—nonverbal behaviours used for social communication and social interaction—are a major contributing factor to deficiencies in that ability in persons with Autism Spectrum Disorder (ASD) and Alexithymia. This paper proposes a testing and potential training framework that utilises modern games technology, namely High Realism Virtual Humans, combined with live motion capture to encourage and aid in self-assessment of mimicry, proposing that in turn this could address deficits in FEER, and improve quality of life for persons with ASD and alexithymia."
                     }
                 ]
             }
@@ -366,13 +366,13 @@
                         "authors": "Ali Adjorlu",
                         "title": "Virtual Sex Therapy: A virtual Psychotherapy Intervention to Help Individuals with Sexual Dysfunction Difficulties",
                         "icon": "black-head",
-                        "abstract": "x"
+                        "abstract": "This paper presents a Virtual Reality (VR) based Psychotherapy intervention for sexual therapy for woman suffering from sexual dysfunctions. Our VR application is designed and developed in collaboration with a sex therapist and psychologist that aims to provide a confidential environment for psychosexual therapy, enhancing treatment efficacy and potentially creating a safe environment to receive therapy about a sensitive topic in a safe environment. The VR application as well as the planned evaluation of the intervention is described in this extended abstract."
                     },
                     {
                         "authors": "Ondřej Vaníček",
                         "title": "Female sexual response to audiovisual stimuli in 2D/3D modality and first/third person perspective",
                         "icon": "black-poster",
-                        "abstract": "x"
+                        "abstract": "This study investigates the effect of sexually explicit video stimuli displayed in a different modality (3D vs. 2D) and perspective (first vs. third person) on female sexual arousal, both subjective and genital, pleasantness ratings, and sexual and general presence. The results are surprising and contrary to our expectation with 2D modality being superior to 3D in most of the measured variables."
                     }
                 ]
             }
@@ -390,6 +390,7 @@
             "time": "13:10 – 14:10",
             "content": {
                 "heading": "Keynote talk: Mónica Spínola",
+                "extra": "Penny Standen Best Early Career Paper Award Winner 2022",
                 "subtext": "Chair: Iveta Fajnerová & David Brown",
                 "color": "orange",
                 "talks": [
@@ -397,9 +398,126 @@
                         "authors": "",
                         "title": "Functional Neuropsychological Assessment: past, present and future",
                         "icon": "star",
-                        "abstract": ""
+                        "abstract": "Over the last years, a paradigm shift in neuropsychological assessment has been observed: from a localizationist perspective to one focused on predicting everyday function. In numerous clinical disorders, cognitive deficits lead to compromises in functional abilities. However, current assessment instruments fail to be representative of real-world abilities, not allowing the prediction of the ability to perform activities of daily living. Technological solutions, such as virtual reality(VR) and wearable technologies, seem to be promising approaches in neuropsychological assessment, allowing the simulation of real-life situations(through VR) and real-time assessment of physiological measures(e.g., heart rate) that relate to cognition(e.g., cognitive workload). We will explore the development of innovative instruments that capture the advantages of performance-based metrics in real environments (through virtual simulations) and of objective information about the person’s internal state (through physiological measures)."
                     }
                 ]
+            }
+        },
+        {
+            "type": "complex",
+            "time": "14:10 – 15:30",
+            "content": {
+                "heading": "Session 6: Pain & Palliative",
+                "subtext": "Chair: Sara Ventura",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Anna Zubková",
+                        "title": "The use of experiential VR to minimize anxiety in children with life limiting condition: A Randomized Control Trial",
+                        "icon": "black-head",
+                        "abstract": "This randomized controlled study involved pediatric patients (ages 10-18) with hemato-oncological or gastroenterological conditions. They were assigned to two groups: one receiving experiential VR intervention and the other, a video intervention followed by VR. Anxiety, pain, and fear levels were assessed before and after the interventions. The findings suggest that VR is effective in reducing anxiety and is particularly favoured over video distraction among participants who have experienced both interventions. Most patients found distraction helpful and expressed willingness to use VR repeatedly."
+                    },
+                    {
+                        "authors": "Martin Zielina",
+                        "title": "Virtual Reality in Burn Treatment: A Comparative Study of High and Low Immersion Approaches on Pain and Anxiety Relief",
+                        "icon": "black-head",
+                        "abstract": "Virtual Reality (VR) interventions have emerged as a significant tool in medical treatments, particularly in reducing pain and anxiety during burn dressing changes. This study examines the effects of different VR immersion levels on pain (NPRS), anxiety (BSPAS), and presence (IPQ) during these procedures. We recruited 67 adult participants and randomly assigned them to either an experimental or a control group. The experimental group was subjected to a high-immersion VR environment known as Cold River, whereas the control group was exposed to a low-immersion environment featuring static images. Additionally, both groups underwent a dressing session without any VR intervention in a randomized design. Our findings indicate that VR, regardless of immersion level, significantly reduced pain and anxiety as compared to the non-VR condition."
+                    },
+                    {
+                        "authors": "Alexander Moreno",
+                        "title": "Preliminary results of a systematic review of the use of virtual reality in palliative care",
+                        "icon": "black-head",
+                        "abstract": "Virtual reality (VR) has shown its potential in a variety of clinical applications. This systematic review aims to analyze VR studies conducted in pediatric, adult, and geriatric palliative care. Using COVIDENCE software, the screening process included 1005 records. After the independent review of the records, only 40 studies met the inclusion criteria. The preliminary findings before the final extraction process indicate that VR is a flourishing field in palliative care. The studies will be reviewed in the context of outcome measures and the type of VR intervention used, evaluating its feasibility, acceptability, and clinical efficacy."
+                    },
+                    {
+                        "authors": "Carolyn Thomas",
+                        "title": "Existential Biophilic VR Therapy – Developing a Protocol for Care Settings",
+                        "icon": "black-head",
+                        "abstract": "An intervention protocol to assess health and wellbeing from biophilic Virtual Reality interventions, was elaborated to include existential theories identified from a scoping review. Additionally, a pilot study in care facilities was employed to assess the protocol’s feasibility. To comprehensively assess health and wellbeing outcomes for care home residents and individuals at end-of-life care, existential theories must be integrated. Meaning and purpose in life, agency, presence, legacy, and flow, are essential considerations for VR interventions in care settings and for maximising health and wellbeing outcomes. Finally, from the pilot study, existential aspects can effortlessly integrate within VR interventions, from the content creation to the research methods selection."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "simple",
+            "time": "15:30 – 16:00",
+            "content": {
+                "heading": "Coffee break",
+                "color": "light-grey"
+            }
+        },
+        {
+            "type": "complex",
+            "time": "16:00 – 17:10",
+            "content": {
+                "heading": "Session 7: Cognition & Spatial Navigation",
+                "subtext": "Chair: Cecilia Sik-Lanyi & Renáta Cserjési",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Suhani Dheer",
+                        "title": "Beyond Diagnosis: The Cognitive Demands of Stopping and Turning Behaviors Among Drivers With and Without Multiple Sclerosis and Implications for Driving Safety",
+                        "icon": "black-head",
+                        "abstract": "This study investigates the impact of multiple sclerosis (MS) and specific cognitive/motor functions on virtual reality-simulated driving behaviors, namely stopping and turning behavior, which are common sources of collisions. Findings suggest that while individuals with and without MS generally exhibit similar driving behaviors, subtle differences exist, especially for left-turns and complex intersections. Various cognitive/motor domains, including visuospatial ability and psychomotor speed, significantly influence driving behaviors across both groups. These findings emphasize the importance of taking cognitive and motor abilities into consideration when evaluating driving capability, underscoring road safety and independence for people with MS and the general population."
+                    },
+                    {
+                        "authors": "Matthew Harris",
+                        "title": "Exploring the potential of using a Spatial Navigation Task to measure cognitive decline in adults with intellectual disabilities",
+                        "icon": "black-head",
+                        "abstract": "Due to its potential to offer a controlled environment for cognitive assessment, Virtual Reality (VR) has the potential to assess spatial navigation skills in those with intellectual disabilities (ID). An immersive virtual environment based on the triangle completion task (TCT) was co-designed and piloted with a research governance group comprising individuals with ID. Preliminary test-retest reliability was examined along with a comparison between the VR-based task and the Montreal Cognitive Assessment (MoCA), an established cognitive measure. Eight participants with ID completed the VR task across varying difficulty levels for between 2 and 4 sessions, with their performance assessed for reliability and correlation with MoCA scores. Results indicate poor test-retest reliability for the practice mode, while the version of the VR environment with limited visual cues difficulty showed better but still insufficient reliability. A weak correlation was observed for participants in terms of their performance measures within the version of the virtual environment containing limited visual cues and their MoCA scores suggesting the potential for using a virtual spatial navigation task in the assessment of cognitive decline in individuals with ID."
+                    },
+                    {
+                        "authors": "Kathryn N. Devlin",
+                        "title": "Virtual Reality Driving Simulation May Enhance the Prediction of Real-World Unsafe Driving",
+                        "icon": "black-head",
+                        "abstract": "Virtual reality driving simulation (VRDS) may provide ecologically valid, objective, sensitive, and challenging measures of driving capacity than can complement existing driving evaluation tools. The present study is among the first to examine the association of VRDS metrics with real-world, naturalistic driving-as-usual. Results demonstrate that VRDS may enhance the prediction of naturalistic driving behaviours above and beyond existing neuropsychological assessments."
+                    },
+                    {
+                        "authors": "Mochammad Hannats Hanafi Ichsan",
+                        "title": "Navigation in 3D Virtual Environment for Older Adults",
+                        "icon": "black-poster",
+                        "abstract": "Navigation is one of the main components in Virtual Reality (VR)/Virtual Environment (VE) or desktop VR. The interaction model in desktop VR comprises standard computer peripherals such as a monitor, keyboard, and mouse. Navigation techniques using mouse and monitor coordinates can be used as a navigation base model. Currently, older adults can still be productive by utilizing desktop VR. Various jobs/skill development in training or administration can be done so that older adults remain productive. To help older adults work, simplified VR navigation can reduce confusion and increase learnability. This pilot study proposes three forms of navigation in 3D VE that can be offered to improve navigation techniques in desktop VR based on design possibilities."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "complex",
+            "time": "17:10 – 18:00",
+            "content": {
+                "heading": "Session 8: Emotions",
+                "subtext": "Chair: Sean Haddick",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Alex Sumich",
+                        "title": "Beneficial effects on subjective mood and brain function of biophilic quality in university environments shown in virtual reality",
+                        "icon": "black-head",
+                        "abstract": "Biophilic designs incorporate nature-based features into built environments. Raised theta activity is reported in biophilic environments. Virtual Reality allows greater control of experimental parameters than in-field studies. Participants provided subjective reports and underwent an electroencephalography assessment as they viewed interior spaces that varied (0 no features to 3 most features) in biophilic quality. Mood improved with biophilic quality. Theta power increased with biophilic quality for levels 1-3. Paradoxically, however, theta was also high in the condition devoid of biophilic features (Level 0). Findings suggest that the benefit of biophilic environments on mood is paralleled by alterations in theta."
+                    },
+                    {
+                        "authors": "Jiří Pešek",
+                        "title": "Assessing emotional memory in VR",
+                        "icon": "black-head",
+                        "abstract": "TBS"
+                    },
+                    {
+                        "authors": "Raissa de Oliveira Negrao",
+                        "title": "Exploring Emotional Responses to Virtual Reality Environments in Younger Adults",
+                        "icon": "black-poster",
+                        "abstract": "The study investigated the emotional responses of experienced and non-experienced virtual reality (VR) users to VR environments. While a discrete significant difference was found between the two groups, the findings suggest that positive affect may be associated with specific VR environments, as evidenced by a decline in Positive and Negative Affect Schedule (PANAS) scores for positive affect among experienced users. The observed pattern of increased excitement following exposure to the exciting VR condition and decreased excitement after a calm VR condition highlights the significant influence of VR experiences on emotional states. These findings underscore the potential of VR technology to modulate emotions and facilitate design of experiences for various applications, including entertainment, therapy, and education."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "simple",
+            "time": "19:30 – 23:00",
+            "content": {
+                "heading": "Social evening & dinner",
+                "link-text": "see Program Specials for details",
+                "link": "https://icdvrat2024.lf3.cuni.cz/specials/social-evening",
+                "color": "yellow"
             }
         }
     ]

@@ -1609,6 +1609,10 @@ footer{
     background-color: #00b0f0;
 }
 
+.program-item .yellow{
+    background-color: #f6bb00;
+}
+
 .program-item .dark-blue{
     background-color: #2f5496;
 }
@@ -1681,7 +1685,7 @@ footer{
 
 @media screen and (max-width: 550px) {
     .program-page-main .select-day a{
-        word-spacing: 40px;
+        word-spacing: 60px;
     }
 }
 
