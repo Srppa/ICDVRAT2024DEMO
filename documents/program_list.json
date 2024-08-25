@@ -279,5 +279,51 @@
                 ]
             }
         }
-    ] 
+    ],
+    "day2": [
+        {
+            "type": "complex",
+            "time": "09:00 – 10:20",
+            "content": {
+                "heading": "Session 3: Autism – Assessment Tools & Participatory Design",
+                "subtext": "Chair: William Farr & Bonnie Connor",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Isaac Lee",
+                        "title": "Can an LLM AI-Augmented ADI-R Improve Diagnostic Pathways and Educational Outcomes for Autistic Individuals?",
+                        "icon": "black-head",
+                        "abstract": "x"
+                    },
+                    {
+                        "authors": "William Farr",
+                        "title": "External Fine Motor Markers of Neurodivergence: Pilot Results of the Tang Ball",
+                        "icon": "black-head",
+                        "abstract": "x"
+                    },
+                    {
+                        "authors": "Sean Haddick",
+                        "title": "Through The Eyes of An Autistic Child: The Role of Technology and Autistic Researchers in Developing Interventions",
+                        "icon": "black-head",
+                        "abstract": "x"
+                    }
+                    ,
+                    {
+                        "authors": "Pascal Meital",
+                        "title": "Online Course for Autistic Adults: Usability Study and Participatory Design",
+                        "icon": "black-head",
+                        "abstract": "x"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "simple",
+            "time": "10:20 – 10:50",
+            "content": {
+                "heading": "Coffee break",
+                "color": "light-grey"
+            }
+        }
+    ]
 }
