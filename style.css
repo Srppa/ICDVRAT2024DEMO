@@ -1353,6 +1353,42 @@ footer{
     margin: auto;
 }
 
+.company-detail-cont h2{
+    font-size: 40px;
+}
+
+.company-detail-page h2{
+    margin-bottom: 2px;
+}
+
+.company-detail-page h3{
+    margin-top: 0px;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.company-detail-page .link{
+    text-align: center;    
+}
+
+.company-detail-page a{
+    color: #002060;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.company-detail-page p{
+    font-size: 20px;
+}
+
+.company-detail-page img{
+    width: 300px;
+    max-width: 95%;
+    margin: 10px auto;
+    margin-top: 80px;
+}
+
 .panelist{
     display: grid;
     max-width: 95%;
@@ -1511,11 +1547,33 @@ footer{
 }
 
 .program-item .content-item-abstract{
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 16px;
     text-align: justify;
     display: none;
+}
+
+.program-item .content-item-abstract::after{
+    content: "___";
+    display: block;
+    color: #002060;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    pointer-events: none;
+    margin-top: -17px;
+}
+
+.program-item .content-item-abstract::before{
+    content: "___";
+    display: block;
+    color: #002060;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    pointer-events: none;
+    margin-top: -27px;
 }
 
 .program-item .content-item-header{
@@ -1557,8 +1615,12 @@ footer{
     background-color: #4f4f4f;
 }
 
-.program-item .nudz-blue{
-    background-color: #002060
+.program-item .grey-blue{
+    background-color: #7589a7
+}
+
+.program-item .medium-blue{
+    background-color: #2f5396
 }
 
 .program-item .light-grey{
