@@ -1350,6 +1350,7 @@ footer{
 
 .company-detail-cont .company-width-fix{
     max-width: 1100px;
+    width: 100%;
     margin: auto;
 }
 
@@ -1414,6 +1415,7 @@ footer{
 
 .panelist-item a{
     font-size: 18px;
+    display: block;
     text-decoration: underline;
     color: #002060;
 }
