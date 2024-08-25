@@ -324,6 +324,83 @@
                 "heading": "Coffee break",
                 "color": "light-grey"
             }
+        },
+        {
+            "type": "complex",
+            "time": "10:50 – 11:30",
+            "content": {
+                "heading": "Session 4: Autism – Social Skills & Public Transport",
+                "subtext": "Chair: William Farr",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Ali Adjorlu",
+                        "title": "Virtual Station: Virtual Reality as a Bridge to Independence in Public Transportation for Autistic Youth",
+                        "icon": "black-head",
+                        "abstract": "x"
+                    },
+                    {
+                        "authors": "Ali Adjorlu",
+                        "title": "Enhancing Social Skills in Autism Spectrum Disorder: A Virtual Reality Intervention for Educational Settings",
+                        "icon": "black-poster",
+                        "abstract": "x"
+                    },
+                    {
+                        "authors": "Sean Haddick",
+                        "title": "Metahumans: A Framework for Assessment and Feedback of Social-Emotional Reciprocity",
+                        "icon": "black-poster",
+                        "abstract": "x"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "complex",
+            "time": "11:30 – 12:10 ",
+            "content": {
+                "heading": "Session 5: Sexolog",
+                "subtext": "Chair: Iveta Fajnerová",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Ali Adjorlu",
+                        "title": "Virtual Sex Therapy: A virtual Psychotherapy Intervention to Help Individuals with Sexual Dysfunction Difficulties",
+                        "icon": "black-head",
+                        "abstract": "x"
+                    },
+                    {
+                        "authors": "Ondřej Vaníček",
+                        "title": "Female sexual response to audiovisual stimuli in 2D/3D modality and first/third person perspective",
+                        "icon": "black-poster",
+                        "abstract": "x"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "simple",
+            "time": "12:10 – 13:10",
+            "content": {
+                "heading": "Lunch (provided)",
+                "color": "light-grey"
+            }
+        },
+        {
+            "type": "complex",
+            "time": "13:10 – 14:10",
+            "content": {
+                "heading": "Keynote talk: Mónica Spínola",
+                "subtext": "Chair: Iveta Fajnerová & David Brown",
+                "color": "orange",
+                "talks": [
+                    {
+                        "authors": "",
+                        "title": "Functional Neuropsychological Assessment: past, present and future",
+                        "icon": "star",
+                        "abstract": ""
+                    }
+                ]
+            }
         }
     ]
 }
