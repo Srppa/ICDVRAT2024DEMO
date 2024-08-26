@@ -454,19 +454,19 @@ header .menu-cont .buy-button{
 }
 
 
-.general-info .location-panel .mapouter{
+.mapouter{
     max-width: 100%;
     margin: 20px auto;
 
     z-index: 0;
 }
 
-.general-info .location-panel .gmap_canvas{
+.gmap_canvas{
     max-width: 100%;
     z-index: 0;
 }
 
-.general-info .location-panel .mapouter iframe{
+.mapouter iframe{
     max-width: 100%;
     z-index: 0;
 }
@@ -1694,7 +1694,7 @@ footer{
     display: none;
 }
 
-#apendee2, #apendee3{
+#apendee2, #apendee3, #apendee3{
     display: none;
 }
 
@@ -1705,7 +1705,7 @@ footer{
     justify-content: center;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     .program-page-main .select-day a{
         word-spacing: 60px;
     }
