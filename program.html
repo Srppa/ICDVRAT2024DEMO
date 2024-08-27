@@ -71,7 +71,8 @@
                     </div>
                 </div>
             </div>
-            <p class="abstract-info">To view the abstract<br class="info-break-fix"> click on the presentation title!</p>
+            <p class="abstract-info">To view the abstract<br class="info-break-fix"> click on the presentation title!
+            </p>
         </div>
         <div id="programDays">
             <div id="apendee1" class="program-day">
@@ -80,7 +81,9 @@
             <div id="apendee2" class="program-day">
                 <div class="program-item simple">
                     <div class="time">19:30 – 23:00</div>
-                    <div class="content yellow"><span>Social evening &amp; dinner - <a href="https://icdvrat2024.lf3.cuni.cz/specials/social-evening">see Program Specials for details</a></span></div>
+                    <div class="content yellow"><span>Social evening &amp; dinner - <a
+                                href="https://icdvrat2024.lf3.cuni.cz/specials/social-evening">see Program Specials for
+                                details</a></span></div>
                 </div>
             </div>
             <divid="apendee2" class="program-day"></div>
@@ -88,7 +91,7 @@
             </div>
 
             <div id="apendee4" class="program-day">
-                <span class="tbs">TBS</span>
+                <span class="tbs"></span>
             </div>
         </div>
     </main>
@@ -157,6 +160,8 @@
             const apendee2Element = document.getElementById('apendee2');
 
             const apendee3Element = document.getElementById('apendee3');
+
+            const apendee4Element = document.getElementById('apendee4');
 
             $.getJSON("/documents/program_list.json", function (json) {
 
@@ -331,15 +336,80 @@
                                 talkClone.querySelector('.content-item-header img').src = "/images/poster_blue.png"
                             } else if (tempTalk.icon == "black-poster") {
                                 talkClone.querySelector('.content-item-header img').src = "/images/poster_black.png"
-                            } else if(tempTalk.icon == "bulb") {
+                            } else if (tempTalk.icon == "bulb") {
                                 talkClone.querySelector('.content-item-header img').src = "/images/light-bulb.png"
-                            } else if(tempTalk.icon == "console") {
+                            } else if (tempTalk.icon == "console") {
                                 talkClone.querySelector('.content-item-header img').src = "/images/console.png"
                             }
 
                             clone.querySelector('.content-items').appendChild(talkClone);
                         }
                         apendee3Element.appendChild(clone);
+                    }
+                }
+
+                for (let i = 0; i < json.day4.length; i++) {
+
+                    let tempPart = json.day4[i];
+                    if (tempPart.type == "simple") {
+
+                        const clone = simpleProgramItemTemplate.content.cloneNode(true);
+
+                        clone.querySelector('.time').innerText = tempPart.time;
+                        clone.querySelector('.content').innerText = tempPart.content.heading;
+                        clone.querySelector('.content').classList.add(tempPart.content.color);
+
+                        apendee4Element.appendChild(clone);
+                    }
+                    else {
+
+                        const clone = complexProgramItemTemplate.content.cloneNode(true);
+
+                        clone.querySelector('.time').innerText = tempPart.time;
+                        clone.querySelector('.content-header h4').innerText = tempPart.content.heading;
+                        clone.querySelector('.content-header h5').innerText = tempPart.content.subtext;
+                        clone.querySelector('.content-header').classList.add(tempPart.content.color);
+
+                        if (tempPart.content.hasOwnProperty("extra")) {
+                            clone.querySelector('.extra').innerText = tempPart.content.extra;
+                        }
+
+                        if (tempPart.content.talks.length < 1) {
+                            clone.querySelector('.content-header').classList.add("heightFix");
+                        }
+
+                        for (let j = 0; j < tempPart.content.talks.length; j++) {
+
+                            tempTalk = tempPart.content.talks[j]
+
+                            const talkClone = contentItemTemplate.content.cloneNode(true);
+
+                            talkClone.querySelector('.content-item-authors').innerText = tempTalk.authors;
+                            if (tempTalk.authors == "") {
+
+                                talkClone.querySelector('.inbetween').remove()
+                            }
+
+                            talkClone.querySelector('.content-item-title').innerText = tempTalk.title;
+                            talkClone.querySelector('.content-item-abstract').innerText = tempTalk.abstract;
+
+                            if (tempTalk.icon == "blue-head") {
+                                talkClone.querySelector('.content-item-header img').src = "/images/debate_blue.png"
+                            } else if (tempTalk.icon == "black-head") {
+                                talkClone.querySelector('.content-item-header img').src = "/images/debate_black.png"
+                            } else if (tempTalk.icon == "blue-poster") {
+                                talkClone.querySelector('.content-item-header img').src = "/images/poster_blue.png"
+                            } else if (tempTalk.icon == "black-poster") {
+                                talkClone.querySelector('.content-item-header img').src = "/images/poster_black.png"
+                            } else if (tempTalk.icon == "bulb") {
+                                talkClone.querySelector('.content-item-header img').src = "/images/light-bulb.png"
+                            } else if (tempTalk.icon == "console") {
+                                talkClone.querySelector('.content-item-header img').src = "/images/console.png"
+                            }
+
+                            clone.querySelector('.content-items').appendChild(talkClone);
+                        }
+                        apendee4Element.appendChild(clone);
                     }
                 }
 

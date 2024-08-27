@@ -1635,6 +1635,10 @@ footer{
     background-color: #f6bb00;
 }
 
+.program-item .green{
+    background-color: #538135;
+}
+
 .program-item .dark-blue{
     background-color: #2f5496;
 }
@@ -1694,7 +1698,7 @@ footer{
     display: none;
 }
 
-#apendee2, #apendee3, #apendee3{
+#apendee2, #apendee3, #apendee4{
     display: none;
 }
 
@@ -1706,8 +1710,24 @@ footer{
 }
 
 @media screen and (max-width: 650px) {
+
     .program-page-main .select-day a{
         word-spacing: 60px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .program-page-main .select-day{
+        flex-wrap: wrap;
+    }
+
+    .program-page-main .select-day a{
+        word-spacing: 70px;
+    }
+
+    .program-page-main .select-day a{
+        margin-bottom: 10px;
     }
 }
 
