@@ -102,8 +102,7 @@
                         "title": "Assessing Oxygenation Changes using fNIRS in a Time-Pressure Task",
                         "icon": "blue-head",
                         "abstract": "This study investigates anxiety detection using HRV, EDA, and fNIRS biosignals in 30 participants at Lusofona University. Significant physiological changes were observed during tasks, especially in oxyhemoglobin levels, measured by fNIRS, highlighting this sensor’s potential in detecting anxiety-related cerebral blood flow changes."
-                    }
-                    ,
+                    },
                     {
                         "authors": "Oluwatobiloba Sodade &. Yusuf Sani",
                         "title": "Psychology of Frailty and Prediction of Fall among Elderly People Living in French Nursing Homes",
@@ -300,8 +299,7 @@
                         "title": "Through The Eyes of An Autistic Child: The Role of Technology and Autistic Researchers in Developing Interventions",
                         "icon": "black-head",
                         "abstract": "TBS"
-                    }
-                    ,
+                    },
                     {
                         "authors": "Pascal Meital",
                         "title": "Online Course for Autistic Adults: Usability Study and Participatory Design",
@@ -357,16 +355,16 @@
                 "color": "dark-blue",
                 "talks": [
                     {
-                        "authors": "Ali Adjorlu",
-                        "title": "Virtual Sex Therapy: A virtual Psychotherapy Intervention to Help Individuals with Sexual Dysfunction Difficulties",
+                        "authors": "Muhammad Arifur Rahman",
+                        "title": "Optimizing VRET: EEG data for ML Models with Real-Time Biofeedback",
                         "icon": "black-head",
-                        "abstract": "This paper presents a Virtual Reality (VR) based Psychotherapy intervention for sexual therapy for woman suffering from sexual dysfunctions. Our VR application is designed and developed in collaboration with a sex therapist and psychologist that aims to provide a confidential environment for psychosexual therapy, enhancing treatment efficacy and potentially creating a safe environment to receive therapy about a sensitive topic in a safe environment. The VR application as well as the planned evaluation of the intervention is described in this extended abstract."
+                        "abstract": "The research paper investigates the integration of machine learning (ML) and biofeedback mechanisms in Virtual Reality Exposure Therapy (VRET) for managing anxiety and stress-related disorders from electroencephalogram (EEG) data. It explores the utilization of EEG data obtained from a 32-Channel brain-computer interface (BCI) in creating personalized interventions, highlighting the potential of real-time biofeedback for stress management. The paper presents a novel ML-driven biofeedback pipeline, leveraging EEG data. The study's outcomes could refine mental health technology by incorporating ML models for the biofeedback for personalized interventions."
                     },
                     {
-                        "authors": "Ondřej Vaníček",
-                        "title": "Female sexual response to audiovisual stimuli in 2D/3D modality and first/third person perspective",
-                        "icon": "black-poster",
-                        "abstract": "This study investigates the effect of sexually explicit video stimuli displayed in a different modality (3D vs. 2D) and perspective (first vs. third person) on female sexual arousal, both subjective and genital, pleasantness ratings, and sexual and general presence. The results are surprising and contrary to our expectation with 2D modality being superior to 3D in most of the measured variables."
+                        "authors": "Martina Janíková",
+                        "title": "Virtual environment for exposure therapy of obsessive-compulsive disorder enriched with olfactory stimuli: A pilot study",
+                        "icon": "black-head",
+                        "abstract": "Obsessive-compulsive disorder is a neuropsychiatric condition with exposure and response prevention as the most common psychotherapeutic treatment. Virtual reality exposure therapy (VRET) has been recently established as a new method that enables simulation of a real-life situation in a safe, controlled environment. This study focuses on testing VRET enriched with olfactory stimuli."
                     }
                 ]
             }
@@ -526,7 +524,7 @@
                 "talks": [
                     {
                         "authors": "Iveta Fajnerová",
-                        "title": "Experiential Learning Game Simulating Symptoms of Mental Disorders",
+                        "title": "Teaching Psychopathology from a First Person Perspective using VR simulation",
                         "icon": "black-head",
                         "abstract": "The proposed study applies an immersive VR simulation of selected psychiatric disorders from 1st person perspective aimed as a learning tool for medical education in psychiatry and clinical psychology. The game was tested and evaluated by few experts in the field and a larger group of undergraduate students. The game was well received and rated as acceptable in means of system usability and cybersickness. While most of the features simulating psychiatric symptoms were well recognized, some specific features are in need for improvement in future game versions. Future studies should evaluate the education potential of this experiential learning game in more detail, including the attitudes and emotional responses elicited by the simulation."
                     },
@@ -662,7 +660,7 @@
         },
         {
             "type": "simple",
-            "time": "12:00 – 13:00",
+            "time": "14:50 – 15:20",
             "content": {
                 "heading": "Coffee break",
                 "color": "light-grey"
@@ -670,24 +668,7 @@
         },
         {
             "type": "complex",
-            "time": "13:00 – 14:00",
-            "content": {
-                "heading": "Keynote talk: Professor Mariano Alcañiz",
-                "subtext": "Chair: Pedro Gamito",
-                "color": "orange",
-                "talks": [
-                    {
-                        "authors": "",
-                        "title": "Could Embodied Conversational Agents Be the Future for Assessment and Interventions in Clinical Psychology?",
-                        "icon": "star",
-                        "abstract": "New technology trends continue to grow rapidly and they offer the potential to change the way we understand brain functioning and brain-behavior interactions. The clinical application of these technologies continues to require the understanding of both the benefits and limitations of integrating these novel methodologies to the needs of the population served. Established technologies, such as virtual reality and neuroimaging can provide examples of the transition from the lab to the clinic. Other emerging technologies, such as neuromodulation and brain-computer interface devices offer new opportunities for brain-behavior specialists. This workshop will offer an overview of key lessons learned in the clinical translation of technologies and discuss important considerations for novel technologies that offer new opportunities."
-                    }
-                ]
-            }
-        },
-        {
-            "type": "complex",
-            "time": "15:30 – 16:10",
+            "time": "15:20 – 16:00",
             "content": {
                 "heading": "Session 12: Sexology",
                 "subtext": "Chair: Iveta Fajnerová",
@@ -710,7 +691,7 @@
         },
         {
             "type": "complex",
-            "time": "16:10 – 17:10",
+            "time": "16:00 – 17:00",
             "content": {
                 "heading": "Company panel discussiony",
                 "subtext": "Chair/Moderator: Albert Skip Rizzo",
@@ -782,6 +763,12 @@
                         "abstract": "Comguide is a startup that develops avatars for training and practicing difficult communication in healthcare. Our target population is healthcare professionals and students."
                     },
                     {
+                        "authors": "Martin Kotek (CIIRC CTU)",
+                        "title": "Technical Aspects of VR Development for Medical Applications",
+                        "icon": "console",
+                        "abstract": "Human communication consists of many multimodal signals, such as speech, gestures, and gaze direction. We therefore designed an experiment focused on these three modalities within virtual reality, which serves as an effective replica of the complex real world. The design of the experiment was set in the iGibson simulation environment, where participants were tasked with teaching the robot to recognize concepts, colors, and more using pointing gestures and speech, ultimately enabling it to prepare a salad. The experiment was recorded in VR. Our goal was to determine the relationship between gestures and speech, the time interval between them, and then create a multimodal fusion that would allow us to integrate these insights into a real robot."
+                    },
+                    {
                         "authors": "Karina Zamrazilova, Michal Vavrecka (CIIRC CTU)",
                         "title": "Natural Human-Robot Interaction",
                         "icon": "console",
@@ -800,10 +787,10 @@
     "day4": [
         {
             "type": "complex",
-            "time": "09:00 – 10:0",
+            "time": "09:00 – 10:00",
             "content": {
                 "heading": "Session 13: Cognition - Varia",
-                "subtext": "Chair: Orly Laha",
+                "subtext": "Chair: Orly Lahav",
                 "color": "dark-blue",
                 "talks": [
                     {
@@ -885,6 +872,16 @@
                 "heading": "Best paper award ceremony and closing remarks",
                 "subtext": "Chair: Iveta Fajnerová & David Brown & Paul Sharkey",
                 "color": "orange",
+                "talks": []
+            }
+        },
+        {
+            "type": "complex",
+            "time": "13:00 – 14:00 ",
+            "content": {
+                "heading": "Cyberspace, Behavior and e-Therapy (CYBER) – Diploma ceremony",
+                "subtext": "Chair: Pedro Gamito",
+                "color": "light-blue",
                 "talks": []
             }
         },

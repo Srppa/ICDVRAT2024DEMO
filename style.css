@@ -518,7 +518,7 @@ header .menu-cont .buy-button{
 }
 
 .program-cont .program-link{
-    margin-top: 10px;
+    margin-top: 30px;
     display: block;
     font-size: 24px;
     font-weight: bold;
@@ -1576,6 +1576,14 @@ footer{
     font-size: 16px;
     text-align: justify;
     display: none;
+}
+
+.program-item .content-item-abstract a{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .program-item .content-item-abstract::after{
