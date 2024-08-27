@@ -163,12 +163,6 @@
                         "abstract": "This presentation will review results of our successful first study involving the novel Multi-modular Memory Desensitization and Reconsolidation (3MDR) “walk and talk” PTSD therapy. While there were 2 prior publications on 3MDR in Dutch and British veterans, our study was unique in being the first to address military personnel with both PTSD and TBI, the first to include significant numbers of women (50%), and in demonstrating that the eye movement element of 3MDR added significant benefit, by randomizing participants to either receive this element or not. We will also provide preliminary results of our efforts to deliver 3MDR less expensively."
                     },
                     {
-                        "authors": "Raúl Durón-Figueroa",
-                        "title": "Development and Usability Evaluation of Virtual Environments for the Treatment of Post-Traumatic Stress Disorder in Earthquake Victims",
-                        "icon": "black-head",
-                        "abstract": "TBS"
-                    },
-                    {
                         "authors": "Albert Rizzo",
                         "title": "The Virtual Ukraine Project: Trauma Therapy in Warzones with Virtual Reality",
                         "icon": "black-head",
@@ -499,7 +493,7 @@
                         "authors": "Jiří Pešek",
                         "title": "Assessing emotional memory in VR",
                         "icon": "black-head",
-                        "abstract": "TBS"
+                        "abstract": "In this study, we examined emotional memory encoding using virtual reality (VR). Our findings suggest that salient emotional stimuli affect memory encoding especially in high arousal situations. These results have important implications for understanding emotional memory processes and their use as diagnostic tools. It’s important to address the study’s limitations in its small sample size and homogenous population. Future research should include larger sample sizes and encompass more diverse populations for instance patients with anxiety disorders. This could further help understand emotional memory processes and aid in the development of effective diagnostic tools."
                     },
                     {
                         "authors": "Raissa de Oliveira Negrao",
@@ -534,7 +528,7 @@
                         "authors": "Iveta Fajnerová",
                         "title": "Experiential Learning Game Simulating Symptoms of Mental Disorders",
                         "icon": "black-head",
-                        "abstract": "TBS"
+                        "abstract": "The proposed study applies an immersive VR simulation of selected psychiatric disorders from 1st person perspective aimed as a learning tool for medical education in psychiatry and clinical psychology. The game was tested and evaluated by few experts in the field and a larger group of undergraduate students. The game was well received and rated as acceptable in means of system usability and cybersickness. While most of the features simulating psychiatric symptoms were well recognized, some specific features are in need for improvement in future game versions. Future studies should evaluate the education potential of this experiential learning game in more detail, including the attitudes and emotional responses elicited by the simulation."
                     },
                     {
                         "authors": "Thomas Hughes-Roberts",
@@ -718,6 +712,194 @@
                         "abstract": "This study investigates the effect of sexually explicit video stimuli displayed in a different modality (3D vs. 2D) and perspective (first vs. third person) on female sexual arousal, both subjective and genital, pleasantness ratings, and sexual and general presence. The results are surprising and contrary to our expectation with 2D modality being superior to 3D in most of the measured variables."
                     }
                 ]
+            }
+        },
+        {
+            "type": "complex",
+            "time": "16:10 – 17:10",
+            "content": {
+                "heading": "Company panel discussiony",
+                "subtext": "Chair/Moderator: Albert Skip Rizzo",
+                "color": "green",
+                "talks": [
+                    {
+                        "authors": "Amir Bozorgzadeh (CEO)",
+                        "title": "VirtuLeap",
+                        "icon": "bulb",
+                        "abstract": "See more at company panel info"
+                    },
+                    {
+                        "authors": "Giorgio Koppehele (Head of Content, Founder, CEO)",
+                        "title": "Magic Horizons",
+                        "icon": "bulb",
+                        "abstract": "See more at company panel info"
+                    },
+                    {
+                        "authors": "Stephane Bouchard (President and CEO)",
+                        "title": "In Virtuo",
+                        "icon": "bulb",
+                        "abstract": "See more at company panel info"
+                    },
+                    {
+                        "authors": "Jan Hrdlička (Co-Founder and CEO)",
+                        "title": "ComGuide",
+                        "icon": "bulb",
+                        "abstract": "See more at company panel info"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "complex",
+            "time": "17:10 – 19:00",
+            "content": {
+                "heading": "Company presentations & demos with catering",
+                "subtext": "Chair: Ali Adjorlu & Iveta Fajnerova",
+                "color": "green",
+                "talks": [
+                    {
+                        "authors": "Bogusława Łysakowska-Będek (Technomex)",
+                        "title": "X Visio PRO - Therapy in Virtual Reality",
+                        "icon": "console",
+                        "abstract": "X Visio PRO (medical device) is a tool utilizing immersive virtual reality technology to support professionals such as: physiotherapists; occupational therapists; psychologists and psychotherapists (clinical psychology cardiology neurology psychiatric rehabilitation orthopedics); and neuropsychologists. It aids in the therapy of among others: seniors adults with neurological conditions (strokes and brain injuries Parkinson's Disease Multiple Sclerosis) adults with orthopedic conditions adults and children (over 13 years old) with emotional-motivational disorders and children over 13 years old with orthopedic and neurodevelopmental conditions such as Cerebral Palsy."
+                    },
+                    {
+                        "authors": "Marie Němcová (VR LIFE s.r.o.)",
+                        "title": "VR Vitalis Pro",
+                        "icon": "console",
+                        "abstract": " VR LIFE is producer of VR Vitalis® Pro application. The application is intended for physiotherapist and doctors as a supplement for various types of rehabilitation. VR Vitalis® Pro is a certified medical device. The innovative application is specifically designed with the needs of professional rehabilitation departments in mind. It combines traditional rehabilitation techniques with the unique capabilities of virtual reality. VR Vitalis® Pro increases the quality of care provided while reducing the operating costs of the healthcare facility."
+                    },
+                    {
+                        "authors": "Gareth Walkom (withVR)",
+                        "title": "Therapy withVR Research withVR",
+                        "icon": "console",
+                        "abstract": "We provide customizable virtual reality speaking situations to support speech therapists and researchers in empowering individuals to use their beautiful voices. We work with Google Orange and other leading companies to bring our award-winning VR tools to stuttering aphasia autism dysarthria and more. Come and try our software at our booth! We'd LOVE to chat and see how you can gain value from our software too!"
+                    },
+                    {
+                        "authors": "Martin Zielina & Zbyněk Pohořelský (VRSPACE)",
+                        "title": "VR burns",
+                        "icon": "console",
+                        "abstract": "The main aim of the intended project is to reduce feeling of procedural pain (when changing bandages) in burn patients through a developed and pilot-verified application for virtual reality (hereinafter VR)."
+                    },
+                    {
+                        "authors": "Jan Hrdlička & Jiří Wild (ComGuide)",
+                        "title": "Virtual Reality for Practicing Difficult Conversations in Healthcare",
+                        "icon": "console",
+                        "abstract": "Comguide is a startup that develops avatars for training and practicing difficult communication in healthcare. Our target population is healthcare professionals and students."
+                    },
+                    {
+                        "authors": "Karina Zamrazilova, Michal Vavrecka (CIIRC CTU)",
+                        "title": "Natural Human-Robot Interaction",
+                        "icon": "console",
+                        "abstract": "Human communication consists of many multimodal signals, such as speech, gestures, and gaze direction. We therefore designed an experiment focused on these three modalities within virtual reality, which serves as an effective replica of the complex real world. The design of the experiment was set in the iGibson simulation environment, where participants were tasked with teaching the robot to recognize concepts, colors, and more using pointing gestures and speech, ultimately enabling it to prepare a salad. The experiment was recorded in VR. Our goal was to determine the relationship between gestures and speech, the time interval between them, and then create a multimodal fusion that would allow us to integrate these insights into a real robot."
+                    },
+                    {
+                        "authors": "Iveta Fajnerová (VR centre NIMH)",
+                        "title": "Virtual Reality for psychotherapy in anxiety disorders and OCD",
+                        "icon": "console",
+                        "abstract": "To be specified"
+                    }
+                ]
+            }
+        }
+    ],
+    "day4": [
+        {
+            "type": "complex",
+            "time": "09:00 – 10:0",
+            "content": {
+                "heading": "Session 13: Cognition - Varia",
+                "subtext": "Chair: Orly Laha",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Kinga Nedda Pete",
+                        "title": "Immersive virtual reality experiences for the improvement of attention in post-COVID-19 condition",
+                        "icon": "black-head",
+                        "abstract": "This study explores the initial results of a 6-week immersive virtual reality (VR) cognitive intervention for individuals experiencing post-COVID-19 condition (PCC). Neuropsychological symptoms commonly observed in PCC, including attention deficits were targeted. Seventeen adults participated in the study, undergoing baseline neuropsychological assessments, a VR intervention, and post-intervention evaluations. Results revealed significant improvements in attention, perceived cognitive status and mood following the intervention. Participants reported low levels of cybersickness and high levels of engagement and perceived usefulness of the VR program. While limitations in sample size exist, findings suggest promising avenues for VR-based interventions in managing cognitive neuropsychological symptoms of PCC."
+                    },
+                    {
+                        "authors": "Soma Zsebi",
+                        "title": "The assessment of the cognitive profile of elderly individuals using Virtual Reality: A comparison between experienced and inexperienced users",
+                        "icon": "black-head",
+                        "abstract": "Virtual Reality (VR) technology has garnered substantial interest in psychology, particularly in its application to enhance neuropsychological cognitive assessments. By offering tailored environments and integrating realistic measurements, VR presents a promising avenue for advancing clinical procedures. With a global rise in the elderly population, the pursuit of healthy aging has become paramount, emphasizing the preservation of cognitive abilities crucial for maintaining quality of life and autonomy. Spatial memory decline, an early indicator of cognitive decline in aging, underscores the importance of accurate assessment methodologies. The Corsi-Block Tapping Task, a conventional method for evaluating spatial memory, has been augmented by VR technology, providing a dynamic platform to assess cognitive function. However, concerns persist regarding older individuals' familiarity and attitudes towards VR technology, potentially influencing performance outcomes. To address this gap, we aim to investigate the attitudes and experiences of elderly participants (aged 65 and older) towards VR-based cognitive assessments. Utilizing the VR Corsi Task, participants will undergo cognitive testing alongside traditional Corsi-Block Tapping Task assessments. Additionally, participants will complete self-reported questionnaires assessing technology familiarity, user experience, and emotional states. We anticipate that participants with prior VR experience and positive attitudes towards technology will exhibit enhanced performance in the VR Corsi Task. This study contributes to understanding the feasibility and validity of VR technology in assessing cognitive function among older adults, shedding light on the potential benefits and challenges of integrating VR into neuropsychological evaluations."
+                    },
+                    {
+                        "authors": "James Lewis",
+                        "title": "The use of the Meta Quest as a tool for ADHD screening through a self administered immersive test of attention and activity",
+                        "icon": "black-poster",
+                        "abstract": "We investigated the potential of a VR self-diagnosis tool for ADHD based on the Qb-test. The VR app iinterpreted the Qb-test's features into an immersive format and captured comparable key diagnostic metrics. An ADHD psychologist confirmed its potential for self-screening and earlier diagnosis. Future studies will address data limitations and assess the tool's effectiveness through clinical trials. This project advances VR's use in ADHD awareness and diagnosis and access to support."
+                    },
+                    {
+                        "authors": "Karolína Zuzánková",
+                        "title": "Virtual environment aiming to train cognitive flexibility in patients with Obsessive – Compulsive Disorder",
+                        "icon": "black-poster",
+                        "abstract": "Obsessive-compulsive disorder (OCD) is characterised by obsessions (intrusive thoughts) and compulsions (ritualised behavior). Patients with OCD can also have impairments in cognitive flexibility (CF), which may result in a decreased ability to shift between mental processes and adapt their behavioral response to environmental changes. To target the CF impairments we created VR-based cognitive training  methods. The aim of this study is to evaluate this method as a potentially valuable addition to cognitive behavioral therapy and to present preliminary data on feasibility of the training."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "simple",
+            "time": "10:00 – 10:20",
+            "content": {
+                "heading": "Coffee break",
+                "color": "light-grey"
+            }
+        },
+        {
+            "type": "complex",
+            "time": "10:20 – 11:20",
+            "content": {
+                "heading": "Session 14: Relaxation & Nature",
+                "subtext": "Chair: Mufti Mahmud",
+                "color": "dark-blue",
+                "talks": [
+                    {
+                        "authors": "Lukáš Hejtmánek",
+                        "title": "It's Not All About the Graphics: Finding Calm in Stylized Digital Forests",
+                        "icon": "black-head",
+                        "abstract": "Forest bathing has demonstrated positive effects on mental health. While digital alternatives lack the full sensory impact of real-world nature, they offer accessibility for those unable to engage in traditional forest bathing. This study investigated whether the level of graphical realism in virtual forest environments significantly influences psychological benefits. Participants engaged in forest bathing using either a photorealistic or stylized virtual forest using a VR headset.  Both environments yielded improvements in restorativeness, but no reduction in stress. Importantly, no significant differences were found between the two visual styles regarding their effect on well-being, despite the photorealistic environment providing larger feeling of presence. This suggests that simpler, stylized environments can be equally effective for delivering the mental health benefits of digital forest bathing, potentially making such experiences more widely accessible."
+                    },
+                    {
+                        "authors": "Ágnes Karolina Bakk",
+                        "title": "Designing Nature Simulated VR Applications for Hospitalized Seniors",
+                        "icon": "black-head",
+                        "abstract": "In this paper, we present the design process of an altered version of an existing interactive virtual reality (VR) application prototype, //Anonymized VR//. The application aims to provide users a natural restorative environment, and our current aim is to develop it further for senior generation treated in hospitals with multimorbidity. The outcomes of this are based on the initial design considerations of the //Anonymized VR// as well as on background literature and workshops organized with healthcare professionals and psychologists working with senior population hospitalized."
+                    },
+                    {
+                        "authors": "Patrícia Szabó",
+                        "title": "Design virtual reality games that instruct proper breathing techniques with dynamically changing virtual environment",
+                        "icon": "black-head",
+                        "abstract": "This research aims to present the development of a \"serious game\" utilizing the Oculus Quest 2 VR device to enhance breathing techniques. Targeting individuals with breathing difficulties such as Chronic Obstructive Pulmonary Disease (COPD) and post-COVID symptoms, the games serve as rehabilitation tools and aid in anxiety management. Additionally, the project involves adapting the virtual environment based on biofeedback data. Three virtual reality games were developed, each showcasing different breathing techniques: Box Breathing, 4-7-8 Breathing, and Humming Breath. These techniques offer structured methods for relaxation and calming the nervous system, potentially benefiting individuals experiencing heightened stress or anxiety."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "simple",
+            "time": "11:30 – 12:00",
+            "content": {
+                "heading": "Coffee break / small lunch",
+                "color": "light-grey"
+            }
+        },
+        {
+            "type": "complex",
+            "time": "12:00 – 13:00",
+            "content": {
+                "heading": "Best paper award ceremony and closing remarks",
+                "subtext": "Chair: Iveta Fajnerová & David Brown & Paul Sharkey",
+                "color": "orange",
+                "talks": []
+            }
+        },
+        {
+            "type": "simple",
+            "time": "14:00",
+            "content": {
+                "heading": "Goodbye ceremony",
+                "color": "dark-blue"
             }
         }
     ]
