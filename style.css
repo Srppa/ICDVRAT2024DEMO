@@ -1710,8 +1710,24 @@ footer{
 }
 
 @media screen and (max-width: 650px) {
+
     .program-page-main .select-day a{
         word-spacing: 60px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .program-page-main .select-day{
+        flex-wrap: wrap;
+    }
+
+    .program-page-main .select-day a{
+        word-spacing: 70px;
+    }
+
+    .program-page-main .select-day a{
+        margin-bottom: 10px;
     }
 }
 
