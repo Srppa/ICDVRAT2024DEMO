@@ -1643,6 +1643,16 @@ footer{
     background-color: #f6bb00;
 }
 
+.program-item.warning{
+    background-color: #c00000;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
 .program-item .green{
     background-color: #538135;
 }
