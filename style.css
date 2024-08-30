@@ -388,7 +388,9 @@ header .menu-cont .buy-button{
 }
 
 .general-info .carousel_cont{
-    width: 100%;
+    max-width: 100%;
+    margin: auto;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -412,6 +414,10 @@ header .menu-cont .buy-button{
 
 @media screen and (max-width: 1000px) {
     .general-info .carousel{
+        max-width: 100%;
+    }
+
+    .general-info .carousel img{
         max-width: 100%;
     }
 
@@ -547,7 +553,7 @@ header .menu-cont .buy-button{
     padding-bottom: 25px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: -5px;
+    margin-top: -6px;
 }
 
 .speaker-detail-text-sub{
@@ -1840,7 +1846,8 @@ footer{
     .speaker-page-main .about-speaker p,
     .speaker-detail-text .speci-show-text,
     .company-detail-cont .company-width-fix > p,
-    .travel-page-main p{
+    .travel-page-main p,
+    .program-item .content-item-abstract{
         text-align: left;
     }
 
