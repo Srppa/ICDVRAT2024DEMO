@@ -547,6 +547,7 @@ header .menu-cont .buy-button{
     padding-bottom: 25px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-top: -5px;
 }
 
 .speaker-detail-text-sub{
@@ -1829,4 +1830,18 @@ footer{
     .day-info .presentation-type.console p{
         margin-left: 9px;
     }
+}
+
+
+/*text*/
+@media screen and (max-width: 700px) {
+    .speaker-page-main .lecture-cont p,
+    .gala-detail-cont > p,
+    .speaker-page-main .about-speaker p,
+    .speaker-detail-text .speci-show-text,
+    .company-detail-cont .company-width-fix > p,
+    .travel-page-main p{
+        text-align: left;
+    }
+
 }
