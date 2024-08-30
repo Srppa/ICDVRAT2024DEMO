@@ -1784,6 +1784,15 @@ footer{
     font-size: 18px;
 }
 
+.day-info .presentation-type.console{
+    justify-content: center;
+}
+
+.day-info .presentation-type.console img{
+    width: 36px;
+    height: 36px;
+}
+
 .day-info .abstract-info{
     margin-top: 15px;
     font-size: 18px;
@@ -1810,5 +1819,14 @@ footer{
 
     .day-info .info-break-fix{
         display: block;
+    }
+
+    .day-info .presentation-type.console{
+        justify-content: start;
+        margin-left: -3px;
+    }
+
+    .day-info .presentation-type.console p{
+        margin-left: 9px;
     }
 }
