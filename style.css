@@ -1314,8 +1314,12 @@ footer{
   display: block;
   font-size: 24px;
   font-weight: bold;
-  color: #2c3161;
+  color: #4f4f4f;
   text-decoration: underline;
+}
+
+.buy-social-buttons:hover{
+    color: #4f4f4f;
 }
 
 
@@ -1335,7 +1339,7 @@ footer{
     
 }
 
-.company-intro .red-info{
+.red-info{
     color: #ba0606;
 }
 
@@ -1851,4 +1855,9 @@ footer{
         text-align: left;
     }
 
+}
+
+.red-warning{
+    color: #ba0606;
+    text-align: center !important;
 }
