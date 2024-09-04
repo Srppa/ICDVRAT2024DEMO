@@ -1339,8 +1339,32 @@ footer{
     
 }
 
+.company-intro .points-info{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 .red-info{
     color: #ba0606;
+}
+
+.points-list{
+    text-align: left;
+}
+
+.points-list .head{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.points-list .subpoint{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.points-list .subpoint::before{
+    content: "-";
+    margin-right: 20px;
 }
 
 .company-intro .red-info a{
