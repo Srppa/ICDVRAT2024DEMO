@@ -1793,6 +1793,7 @@ footer{
 .day-info .presentation-type p{
     margin-left: 10px;
     font-size: 18px;
+    text-align: left;
 }
 
 .day-info .presentation-type.console{
