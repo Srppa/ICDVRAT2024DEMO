@@ -276,7 +276,7 @@ header .menu-cont .buy-button{
 
 .about-cont h2{
     margin-bottom: 0px;
-    margin-top: 15px;
+    margin-top: 60px;
 }
 
 .about-cont .about-text .archive-link{
@@ -1885,4 +1885,82 @@ footer{
 .red-warning{
     color: #ba0606;
     text-align: center !important;
+}
+
+.conf-end{
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.conf-end h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.conf-end p{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.conf-end-links{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conf-end-links a{
+    display: block;
+    font-size: 24px;
+    width: 210px;
+    background-color: #2c3161;
+    padding: 15px 0;
+    color: #fff;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.conf-end-links a:hover{
+    text-decoration: underline;
+}
+
+
+.gallery-page-main h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.gallery-page-main h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.highlights{
+    display: grid;
+  width: 860px;
+  max-width: 95%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.highlights img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.photos > a{
+    margin-top: 25px;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3161;
+    text-decoration: underline;
 }
