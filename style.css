@@ -1957,12 +1957,13 @@ footer{
 }
 
 .photos > a{
-    margin-top: 25px;
-    display: block;
-    font-size: 24px;
-    font-weight: bold;
-    color: #2c3161;
-    text-decoration: underline;
+    margin-top: 50px;
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  color: #2c3161;
+  text-decoration: underline;
+  margin-bottom: 20px;
 }
 
 .end-gallery{
