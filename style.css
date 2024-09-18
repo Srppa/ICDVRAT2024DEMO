@@ -2041,3 +2041,15 @@ footer{
     font-size: 22px;
     font-style: italic;
 }
+
+@media screen and (max-width: 900px) {
+    .highlights{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .highlights{
+        grid-template-columns: 1fr 1fr;
+    }
+}
