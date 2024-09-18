@@ -981,7 +981,8 @@ footer{
 
 .specials-cont{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
@@ -1994,6 +1995,7 @@ footer{
 .end-sub{
     max-width: 450px;
     margin-bottom: 0px;
+    margin: 0 10px;
 }
 
 .awards-page-main h3{
