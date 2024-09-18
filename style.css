@@ -1995,3 +1995,49 @@ footer{
     max-width: 450px;
     margin-bottom: 0px;
 }
+
+.awards-page-main h3{
+    font-size: 35px;
+    color: #002060;
+    font-weight: 900;
+    margin: 50px 0 10px;
+}
+
+.awards-page-main h3:first-of-type{
+    margin-top: 0px;
+}
+
+.awards-page-main h4{
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 30px 0 10px;
+}
+
+.awards-page-main h4:first-of-type{
+    font-size: 30px;
+    margin: 10px 0 10px;
+}
+
+.paper{
+    width: 420px;
+    margin: 0 20px 30px 20px;
+}
+
+.winner, .nominees{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.paper .author{
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+.paper .name{
+    font-size: 22px;
+    font-style: italic;
+}
