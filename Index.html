@@ -310,7 +310,7 @@
                 </div>
                 <h3 id="specials">Specials</h3>
                 <div class="specials-cont">
-                    <div id="speciBox" class="specials-sub cyber-speci">
+                    <div id="speciBoxShow" class="specials-sub cyber-speci">
                         <div class="speaker-detail-img-cont">
                             <img src="images/cyber-web.jpg" />
                         </div>
@@ -624,7 +624,8 @@
                 $("html, body").animate({ scrollTop: $("#programLink").offset().top }, 300);
             });
 
-            $("#speciBox").on("click", function () {
+            $("#speciBoxShow").on("click", function () {
+                console.log("lol");
                 $("#speciShowText").slideToggle("slow", function () {
                     $("#speciExpandButton").toggleClass("rotated")
                 });
