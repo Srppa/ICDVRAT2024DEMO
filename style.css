@@ -1890,6 +1890,9 @@ footer{
 .conf-end{
     margin-bottom: 45px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .conf-end h2{
@@ -1993,7 +1996,7 @@ footer{
 
 .end-sub{
     max-width: 450px;
-    margin: 0 15px 10px 15px;
+    margin: 0 15px 25px 15px;
 }
 
 .awards-page-main h3{
@@ -2060,4 +2063,22 @@ footer{
     .highlights{
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
+
+.proceedings{
+    padding: 15px;
+    background-color: #2c3161;
+    max-width: 450px;
+    margin: 0 10px;
+    padding: 20px 40px 30px;
+    border-radius: 10px;
+}
+
+.proceedings h4{
+    color: #fff;
+    
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    text-decoration: underline;
 }
